@@ -15,7 +15,7 @@ const FeaturesSection23 = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="features-section23-text10">
+                  <span className="features-section23-text11">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle_fLOKqq'),
@@ -64,7 +64,7 @@ const FeaturesSection23 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle1 ?? (
                   <Fragment>
-                    <span className="features-section23-text19">
+                    <span className="features-section23-text14">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_gOdXou'),
@@ -77,7 +77,7 @@ const FeaturesSection23 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="features-section23-text18">
+                    <span className="features-section23-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_3yO8gV'),
@@ -109,7 +109,7 @@ const FeaturesSection23 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle2 ?? (
                   <Fragment>
-                    <span className="features-section23-text12">
+                    <span className="features-section23-text15">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_BmtHDf'),
@@ -122,7 +122,7 @@ const FeaturesSection23 = (props) => {
               <p className="section-content">
                 {props.sectionContent1 ?? (
                   <Fragment>
-                    <span className="features-section23-text13">
+                    <span className="features-section23-text10">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_WoU_Nw'),
@@ -156,7 +156,7 @@ const FeaturesSection23 = (props) => {
               <h4 className="section-title">
                 {props.sectionTitle3 ?? (
                   <Fragment>
-                    <span className="features-section23-text20">
+                    <span className="features-section23-text18">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_YyEFw_'),
@@ -169,7 +169,7 @@ const FeaturesSection23 = (props) => {
               <p className="section-content">
                 {props.sectionContent2 ?? (
                   <Fragment>
-                    <span className="features-section23-text21">
+                    <span className="features-section23-text19">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_44kSzI'),
@@ -201,7 +201,7 @@ const FeaturesSection23 = (props) => {
               <h4 className="section-title">
                 {props.sectionTitle4 ?? (
                   <Fragment>
-                    <span className="features-section23-text17">
+                    <span className="features-section23-text12">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_BUqjTF'),
@@ -214,7 +214,7 @@ const FeaturesSection23 = (props) => {
               <p className="section-content">
                 {props.sectionContent3 ?? (
                   <Fragment>
-                    <span className="features-section23-text15">
+                    <span className="features-section23-text21">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_7GXXIK'),
@@ -248,7 +248,7 @@ const FeaturesSection23 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle5 ?? (
                   <Fragment>
-                    <span className="features-section23-text11">
+                    <span className="features-section23-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_4AKLbL'),
@@ -261,7 +261,7 @@ const FeaturesSection23 = (props) => {
               <p className="section-content">
                 {props.sectionContent4 ?? (
                   <Fragment>
-                    <span className="features-section23-text14">
+                    <span className="features-section23-text13">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_0s_XVC'),
@@ -323,35 +323,35 @@ const FeaturesSection23 = (props) => {
 }
 
 FeaturesSection23.defaultProps = {
-  sectionTitle: undefined,
-  sectionTitle5: undefined,
-  sectionTitle2: undefined,
   sectionContent1: undefined,
-  sectionContent4: undefined,
-  sectionContent3: undefined,
-  sectionSubtitle: undefined,
-  rootClassName: '',
+  sectionTitle: undefined,
   sectionTitle4: undefined,
-  sectionContent: undefined,
+  sectionContent4: undefined,
   sectionTitle1: undefined,
+  sectionTitle2: undefined,
+  sectionSubtitle: undefined,
+  sectionContent: undefined,
   sectionTitle3: undefined,
   sectionContent2: undefined,
+  sectionTitle5: undefined,
+  sectionContent3: undefined,
+  rootClassName: '',
 }
 
 FeaturesSection23.propTypes = {
-  sectionTitle: PropTypes.element,
-  sectionTitle5: PropTypes.element,
-  sectionTitle2: PropTypes.element,
   sectionContent1: PropTypes.element,
-  sectionContent4: PropTypes.element,
-  sectionContent3: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  rootClassName: PropTypes.string,
+  sectionTitle: PropTypes.element,
   sectionTitle4: PropTypes.element,
-  sectionContent: PropTypes.element,
+  sectionContent4: PropTypes.element,
   sectionTitle1: PropTypes.element,
+  sectionTitle2: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  sectionContent: PropTypes.element,
   sectionTitle3: PropTypes.element,
   sectionContent2: PropTypes.element,
+  sectionTitle5: PropTypes.element,
+  sectionContent3: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default FeaturesSection23

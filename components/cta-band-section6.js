@@ -21,7 +21,7 @@ const CtaBandSection6 = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="cta-band-section6-text37">
+                  <span className="cta-band-section6-text40">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle_NRYt8g'),
@@ -34,7 +34,7 @@ const CtaBandSection6 = (props) => {
             <p className="section-content">
               {props.sectionContent ?? (
                 <Fragment>
-                  <span className="cta-band-section6-text40">
+                  <span className="cta-band-section6-text39">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionContent_g5YrGU'),
@@ -50,7 +50,7 @@ const CtaBandSection6 = (props) => {
                   <span>
                     {props.text ?? (
                       <Fragment>
-                        <span className="cta-band-section6-text39">
+                        <span className="cta-band-section6-text37">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_dtJb5H'),
@@ -94,6 +94,7 @@ const CtaBandSection6 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           heroTitle={
             <Fragment>
               <span className="cta-band-section6-text13">
@@ -161,7 +162,6 @@ const CtaBandSection6 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhyExistSection5>
         <WhatIsSection5
           text={
@@ -252,6 +252,7 @@ const CtaBandSection6 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           specLabel={
             <Fragment>
               <span className="cta-band-section6-text27">
@@ -363,7 +364,6 @@ const CtaBandSection6 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhatIsSection5>
       </section>
       <style jsx>
@@ -465,17 +465,17 @@ const CtaBandSection6 = (props) => {
 }
 
 CtaBandSection6.defaultProps = {
-  sectionTitle: undefined,
-  text1: undefined,
   text: undefined,
+  text1: undefined,
   sectionContent: undefined,
+  sectionTitle: undefined,
 }
 
 CtaBandSection6.propTypes = {
-  sectionTitle: PropTypes.element,
-  text1: PropTypes.element,
   text: PropTypes.element,
+  text1: PropTypes.element,
   sectionContent: PropTypes.element,
+  sectionTitle: PropTypes.element,
 }
 
 export default CtaBandSection6

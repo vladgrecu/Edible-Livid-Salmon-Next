@@ -15,7 +15,7 @@ const TrustSection8 = (props) => {
           <h2 className="section-title centered">
             {props.sectionTitle ?? (
               <Fragment>
-                <span className="trust-section8-text30">
+                <span className="trust-section8-text23">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('SectionTitle_pceaE5'),
@@ -28,7 +28,7 @@ const TrustSection8 = (props) => {
           <p className="max-w-600 centered-text section-content">
             {props.sectionContent ?? (
               <Fragment>
-                <span className="trust-section8-text24">
+                <span className="trust-section8-text19">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('SectionContent_c5bWNs'),
@@ -70,7 +70,7 @@ const TrustSection8 = (props) => {
                 <h3 className="section-subtitle">
                   {props.sectionSubtitle ?? (
                     <Fragment>
-                      <span className="trust-section8-text22">
+                      <span className="trust-section8-text25">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_OR-xbY'),
@@ -86,7 +86,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text ?? (
                       <Fragment>
-                        <span className="trust-section8-text20">
+                        <span className="trust-section8-text22">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_DPZOvM'),
@@ -101,7 +101,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text1 ?? (
                       <Fragment>
-                        <span className="trust-section8-text23">
+                        <span className="trust-section8-text30">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_A8FLhD'),
@@ -116,7 +116,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text2 ?? (
                       <Fragment>
-                        <span className="trust-section8-text21">
+                        <span className="trust-section8-text29">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_4W3feK'),
@@ -131,7 +131,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text3 ?? (
                       <Fragment>
-                        <span className="trust-section8-text25">
+                        <span className="trust-section8-text28">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_jS8mst'),
@@ -146,7 +146,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text4 ?? (
                       <Fragment>
-                        <span className="trust-section8-text26">
+                        <span className="trust-section8-text24">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_82mFwg'),
@@ -183,7 +183,7 @@ const TrustSection8 = (props) => {
                 <h3 className="section-subtitle">
                   {props.sectionSubtitle1 ?? (
                     <Fragment>
-                      <span className="trust-section8-text31">
+                      <span className="trust-section8-text21">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_3Dwl8l'),
@@ -199,7 +199,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text5 ?? (
                       <Fragment>
-                        <span className="trust-section8-text29">
+                        <span className="trust-section8-text20">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_Nq7j06'),
@@ -214,7 +214,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text6 ?? (
                       <Fragment>
-                        <span className="trust-section8-text27">
+                        <span className="trust-section8-text31">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_GnuUxE'),
@@ -229,7 +229,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text7 ?? (
                       <Fragment>
-                        <span className="trust-section8-text19">
+                        <span className="trust-section8-text27">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_dJxWXR'),
@@ -244,7 +244,7 @@ const TrustSection8 = (props) => {
                   <span>
                     {props.text8 ?? (
                       <Fragment>
-                        <span className="trust-section8-text28">
+                        <span className="trust-section8-text26">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_8xgTty'),
@@ -311,37 +311,37 @@ const TrustSection8 = (props) => {
 }
 
 TrustSection8.defaultProps = {
-  text7: undefined,
+  sectionContent: undefined,
+  text5: undefined,
+  sectionSubtitle1: undefined,
   text: undefined,
   rootClassName: '',
-  text2: undefined,
-  sectionSubtitle: undefined,
-  text1: undefined,
-  sectionContent: undefined,
-  text3: undefined,
-  text4: undefined,
-  text6: undefined,
-  text8: undefined,
-  text5: undefined,
   sectionTitle: undefined,
-  sectionSubtitle1: undefined,
+  text4: undefined,
+  sectionSubtitle: undefined,
+  text8: undefined,
+  text7: undefined,
+  text3: undefined,
+  text2: undefined,
+  text1: undefined,
+  text6: undefined,
 }
 
 TrustSection8.propTypes = {
-  text7: PropTypes.element,
+  sectionContent: PropTypes.element,
+  text5: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
   text: PropTypes.element,
   rootClassName: PropTypes.string,
-  text2: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  text1: PropTypes.element,
-  sectionContent: PropTypes.element,
-  text3: PropTypes.element,
-  text4: PropTypes.element,
-  text6: PropTypes.element,
-  text8: PropTypes.element,
-  text5: PropTypes.element,
   sectionTitle: PropTypes.element,
-  sectionSubtitle1: PropTypes.element,
+  text4: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  text8: PropTypes.element,
+  text7: PropTypes.element,
+  text3: PropTypes.element,
+  text2: PropTypes.element,
+  text1: PropTypes.element,
+  text6: PropTypes.element,
 }
 
 export default TrustSection8

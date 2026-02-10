@@ -30,7 +30,7 @@ const TeamSection1 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="team-section1-text20">
+                    <span className="team-section1-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_8-aMB9'),
@@ -44,7 +44,7 @@ const TeamSection1 = (props) => {
                 <span className="chip">
                   {props.chip ?? (
                     <Fragment>
-                      <span className="team-section1-text14">
+                      <span className="team-section1-text18">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_aFjhki'),
@@ -57,7 +57,7 @@ const TeamSection1 = (props) => {
                 <span className="chip">
                   {props.chip1 ?? (
                     <Fragment>
-                      <span className="team-section1-text13">
+                      <span className="team-section1-text11">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_h8YkF8'),
@@ -70,7 +70,7 @@ const TeamSection1 = (props) => {
                 <span className="chip">
                   {props.chip2 ?? (
                     <Fragment>
-                      <span className="team-section1-text15">
+                      <span className="team-section1-text13">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_569p7r'),
@@ -90,7 +90,7 @@ const TeamSection1 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle ?? (
                     <Fragment>
-                      <span className="team-section1-text16">
+                      <span className="team-section1-text19">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_v1bzEg'),
@@ -126,7 +126,7 @@ const TeamSection1 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle2 ?? (
                     <Fragment>
-                      <span className="team-section1-text17">
+                      <span className="team-section1-text16">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_AF7cNd'),
@@ -144,7 +144,7 @@ const TeamSection1 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle3 ?? (
                     <Fragment>
-                      <span className="team-section1-text18">
+                      <span className="team-section1-text14">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_NkOPry'),
@@ -162,7 +162,7 @@ const TeamSection1 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle4 ?? (
                     <Fragment>
-                      <span className="team-section1-text11">
+                      <span className="team-section1-text20">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_FLzrCF'),
@@ -180,7 +180,7 @@ const TeamSection1 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle5 ?? (
                     <Fragment>
-                      <span className="team-section1-text19">
+                      <span className="team-section1-text15">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_Jvy8_G'),
@@ -241,32 +241,32 @@ const TeamSection1 = (props) => {
 
 TeamSection1.defaultProps = {
   sectionSubtitle1: undefined,
-  sectionSubtitle4: undefined,
+  chip1: undefined,
   sectionTitle: undefined,
   rootClassName: '',
-  chip1: undefined,
-  chip: undefined,
   chip2: undefined,
-  sectionSubtitle: undefined,
-  sectionSubtitle2: undefined,
   sectionSubtitle3: undefined,
   sectionSubtitle5: undefined,
+  sectionSubtitle2: undefined,
   sectionContent: undefined,
+  chip: undefined,
+  sectionSubtitle: undefined,
+  sectionSubtitle4: undefined,
 }
 
 TeamSection1.propTypes = {
   sectionSubtitle1: PropTypes.element,
-  sectionSubtitle4: PropTypes.element,
+  chip1: PropTypes.element,
   sectionTitle: PropTypes.element,
   rootClassName: PropTypes.string,
-  chip1: PropTypes.element,
-  chip: PropTypes.element,
   chip2: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  sectionSubtitle2: PropTypes.element,
   sectionSubtitle3: PropTypes.element,
   sectionSubtitle5: PropTypes.element,
+  sectionSubtitle2: PropTypes.element,
   sectionContent: PropTypes.element,
+  chip: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  sectionSubtitle4: PropTypes.element,
 }
 
 export default TeamSection1

@@ -19,7 +19,7 @@ const WhyExistSection3 = (props) => {
                 <h2 className="about-nimbuscloud-hero-title hero-title">
                   {props.heroTitle ?? (
                     <Fragment>
-                      <span className="why-exist-section3-text5">
+                      <span className="why-exist-section3-text8">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('HeroTitle_AsTP9M'),
@@ -32,7 +32,7 @@ const WhyExistSection3 = (props) => {
                 <p className="plaque-statement">
                   {props.plaqueStatement ?? (
                     <Fragment>
-                      <span className="why-exist-section3-text2">
+                      <span className="why-exist-section3-text3">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('PlaqueStatement_2AdWe4'),
@@ -54,7 +54,7 @@ const WhyExistSection3 = (props) => {
               <p className="typewriter-reveal section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="why-exist-section3-text4">
+                    <span className="why-exist-section3-text7">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_6J3vXT'),
@@ -68,7 +68,7 @@ const WhyExistSection3 = (props) => {
                 <span className="quote-mark">
                   {props.quoteMark ?? (
                     <Fragment>
-                      <span className="why-exist-section3-text3">
+                      <span className="why-exist-section3-text6">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('QuoteMark_ir77q1'),
@@ -81,7 +81,7 @@ const WhyExistSection3 = (props) => {
                 <span>
                   {props.text ?? (
                     <Fragment>
-                      <span className="why-exist-section3-text6">
+                      <span className="why-exist-section3-text4">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_VXq0cQ'),
@@ -94,7 +94,7 @@ const WhyExistSection3 = (props) => {
                 <span className="quote-mark">
                   {props.quoteMark1 ?? (
                     <Fragment>
-                      <span className="why-exist-section3-text8">
+                      <span className="why-exist-section3-text5">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('QuoteMark_ynpU--'),
@@ -108,7 +108,7 @@ const WhyExistSection3 = (props) => {
               <p className="closing-statement">
                 {props.closingStatement ?? (
                   <Fragment>
-                    <span className="why-exist-section3-text7">
+                    <span className="why-exist-section3-text2">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('ClosingStatement_EaCVCY'),
@@ -155,25 +155,25 @@ const WhyExistSection3 = (props) => {
 }
 
 WhyExistSection3.defaultProps = {
-  plaqueStatement: undefined,
-  quoteMark: undefined,
-  sectionContent: undefined,
-  rootClassName: '',
-  heroTitle: undefined,
-  text: undefined,
   closingStatement: undefined,
+  plaqueStatement: undefined,
+  text: undefined,
   quoteMark1: undefined,
+  quoteMark: undefined,
+  rootClassName: '',
+  sectionContent: undefined,
+  heroTitle: undefined,
 }
 
 WhyExistSection3.propTypes = {
-  plaqueStatement: PropTypes.element,
-  quoteMark: PropTypes.element,
-  sectionContent: PropTypes.element,
-  rootClassName: PropTypes.string,
-  heroTitle: PropTypes.element,
-  text: PropTypes.element,
   closingStatement: PropTypes.element,
+  plaqueStatement: PropTypes.element,
+  text: PropTypes.element,
   quoteMark1: PropTypes.element,
+  quoteMark: PropTypes.element,
+  rootClassName: PropTypes.string,
+  sectionContent: PropTypes.element,
+  heroTitle: PropTypes.element,
 }
 
 export default WhyExistSection3

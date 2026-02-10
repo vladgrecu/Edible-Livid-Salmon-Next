@@ -17,7 +17,7 @@ const TeamSection10 = (props) => {
               <h2 className="section-title">
                 {props.sectionTitle ?? (
                   <Fragment>
-                    <span className="team-section10-text12">
+                    <span className="team-section10-text15">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_Q3dAHu'),
@@ -30,7 +30,7 @@ const TeamSection10 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="team-section10-text20">
+                    <span className="team-section10-text19">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_8-aMB9'),
@@ -44,7 +44,7 @@ const TeamSection10 = (props) => {
                 <span className="chip">
                   {props.chip ?? (
                     <Fragment>
-                      <span className="team-section10-text14">
+                      <span className="team-section10-text16">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_aFjhki'),
@@ -57,7 +57,7 @@ const TeamSection10 = (props) => {
                 <span className="chip">
                   {props.chip1 ?? (
                     <Fragment>
-                      <span className="team-section10-text13">
+                      <span className="team-section10-text20">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_h8YkF8'),
@@ -70,7 +70,7 @@ const TeamSection10 = (props) => {
                 <span className="chip">
                   {props.chip2 ?? (
                     <Fragment>
-                      <span className="team-section10-text15">
+                      <span className="team-section10-text14">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_569p7r'),
@@ -90,7 +90,7 @@ const TeamSection10 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle ?? (
                     <Fragment>
-                      <span className="team-section10-text16">
+                      <span className="team-section10-text13">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_v1bzEg'),
@@ -108,7 +108,7 @@ const TeamSection10 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle1 ?? (
                     <Fragment>
-                      <span className="team-section10-text10">
+                      <span className="team-section10-text11">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_97kg8S'),
@@ -126,7 +126,7 @@ const TeamSection10 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle2 ?? (
                     <Fragment>
-                      <span className="team-section10-text17">
+                      <span className="team-section10-text18">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_AF7cNd'),
@@ -144,7 +144,7 @@ const TeamSection10 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle3 ?? (
                     <Fragment>
-                      <span className="team-section10-text18">
+                      <span className="team-section10-text10">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_NkOPry'),
@@ -162,7 +162,7 @@ const TeamSection10 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle4 ?? (
                     <Fragment>
-                      <span className="team-section10-text11">
+                      <span className="team-section10-text12">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_FLzrCF'),
@@ -180,7 +180,7 @@ const TeamSection10 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle5 ?? (
                     <Fragment>
-                      <span className="team-section10-text19">
+                      <span className="team-section10-text17">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_Jvy8_G'),
@@ -240,33 +240,33 @@ const TeamSection10 = (props) => {
 }
 
 TeamSection10.defaultProps = {
+  sectionSubtitle3: undefined,
   sectionSubtitle1: undefined,
   sectionSubtitle4: undefined,
-  sectionTitle: undefined,
-  rootClassName: '',
-  chip1: undefined,
-  chip: undefined,
-  chip2: undefined,
   sectionSubtitle: undefined,
-  sectionSubtitle2: undefined,
-  sectionSubtitle3: undefined,
+  chip2: undefined,
+  rootClassName: '',
+  sectionTitle: undefined,
+  chip: undefined,
   sectionSubtitle5: undefined,
+  sectionSubtitle2: undefined,
   sectionContent: undefined,
+  chip1: undefined,
 }
 
 TeamSection10.propTypes = {
+  sectionSubtitle3: PropTypes.element,
   sectionSubtitle1: PropTypes.element,
   sectionSubtitle4: PropTypes.element,
-  sectionTitle: PropTypes.element,
-  rootClassName: PropTypes.string,
-  chip1: PropTypes.element,
-  chip: PropTypes.element,
-  chip2: PropTypes.element,
   sectionSubtitle: PropTypes.element,
-  sectionSubtitle2: PropTypes.element,
-  sectionSubtitle3: PropTypes.element,
+  chip2: PropTypes.element,
+  rootClassName: PropTypes.string,
+  sectionTitle: PropTypes.element,
+  chip: PropTypes.element,
   sectionSubtitle5: PropTypes.element,
+  sectionSubtitle2: PropTypes.element,
   sectionContent: PropTypes.element,
+  chip1: PropTypes.element,
 }
 
 export default TeamSection10

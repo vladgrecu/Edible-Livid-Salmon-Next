@@ -16,7 +16,7 @@ const MissionSection2 = (props) => {
               <h2 className="section-title">
                 {props.sectionTitle ?? (
                   <Fragment>
-                    <span className="mission-section2-text7">
+                    <span className="mission-section2-text8">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_Vy3dJh'),
@@ -29,7 +29,7 @@ const MissionSection2 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="mission-section2-text2">
+                    <span className="mission-section2-text7">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_82ZIyq'),
@@ -47,7 +47,7 @@ const MissionSection2 = (props) => {
                 <h3 className="section-subtitle">
                   {props.sectionSubtitle ?? (
                     <Fragment>
-                      <span className="mission-section2-text8">
+                      <span className="mission-section2-text6">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_r6ritu'),
@@ -76,7 +76,7 @@ const MissionSection2 = (props) => {
                 <h3 className="section-subtitle">
                   {props.sectionSubtitle1 ?? (
                     <Fragment>
-                      <span className="mission-section2-text3">
+                      <span className="mission-section2-text2">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_iQoQu-'),
@@ -89,7 +89,7 @@ const MissionSection2 = (props) => {
                 <p className="section-content">
                   {props.sectionContent2 ?? (
                     <Fragment>
-                      <span className="mission-section2-text5">
+                      <span className="mission-section2-text3">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_wRqrtu'),
@@ -105,7 +105,7 @@ const MissionSection2 = (props) => {
                 <h3 className="section-subtitle">
                   {props.sectionSubtitle2 ?? (
                     <Fragment>
-                      <span className="mission-section2-text6">
+                      <span className="mission-section2-text1">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_36F2i0'),
@@ -118,7 +118,7 @@ const MissionSection2 = (props) => {
                 <p className="section-content">
                   {props.sectionContent3 ?? (
                     <Fragment>
-                      <span className="mission-section2-text1">
+                      <span className="mission-section2-text5">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_mPa0rx'),
@@ -169,27 +169,27 @@ const MissionSection2 = (props) => {
 }
 
 MissionSection2.defaultProps = {
-  sectionContent3: undefined,
-  sectionContent: undefined,
-  sectionSubtitle1: undefined,
-  sectionContent1: undefined,
-  sectionContent2: undefined,
   sectionSubtitle2: undefined,
+  sectionSubtitle1: undefined,
+  sectionContent2: undefined,
+  sectionContent1: undefined,
+  sectionContent3: undefined,
   rootClassName: '',
-  sectionTitle: undefined,
   sectionSubtitle: undefined,
+  sectionContent: undefined,
+  sectionTitle: undefined,
 }
 
 MissionSection2.propTypes = {
-  sectionContent3: PropTypes.element,
-  sectionContent: PropTypes.element,
-  sectionSubtitle1: PropTypes.element,
-  sectionContent1: PropTypes.element,
-  sectionContent2: PropTypes.element,
   sectionSubtitle2: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
+  sectionContent2: PropTypes.element,
+  sectionContent1: PropTypes.element,
+  sectionContent3: PropTypes.element,
   rootClassName: PropTypes.string,
-  sectionTitle: PropTypes.element,
   sectionSubtitle: PropTypes.element,
+  sectionContent: PropTypes.element,
+  sectionTitle: PropTypes.element,
 }
 
 export default MissionSection2

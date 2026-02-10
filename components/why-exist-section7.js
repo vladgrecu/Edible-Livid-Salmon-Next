@@ -19,7 +19,7 @@ const WhyExistSection7 = (props) => {
                 <h2 className="about-nimbuscloud-hero-title hero-title">
                   {props.heroTitle ?? (
                     <Fragment>
-                      <span className="why-exist-section7-text5">
+                      <span className="why-exist-section7-text7">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('HeroTitle_AsTP9M'),
@@ -32,7 +32,7 @@ const WhyExistSection7 = (props) => {
                 <p className="plaque-statement">
                   {props.plaqueStatement ?? (
                     <Fragment>
-                      <span className="why-exist-section7-text2">
+                      <span className="why-exist-section7-text5">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('PlaqueStatement_2AdWe4'),
@@ -68,7 +68,7 @@ const WhyExistSection7 = (props) => {
                 <span className="quote-mark">
                   {props.quoteMark ?? (
                     <Fragment>
-                      <span className="why-exist-section7-text3">
+                      <span className="why-exist-section7-text6">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('QuoteMark_ir77q1'),
@@ -81,7 +81,7 @@ const WhyExistSection7 = (props) => {
                 <span>
                   {props.text ?? (
                     <Fragment>
-                      <span className="why-exist-section7-text6">
+                      <span className="why-exist-section7-text2">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_VXq0cQ'),
@@ -108,7 +108,7 @@ const WhyExistSection7 = (props) => {
               <p className="closing-statement">
                 {props.closingStatement ?? (
                   <Fragment>
-                    <span className="why-exist-section7-text7">
+                    <span className="why-exist-section7-text3">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('ClosingStatement_EaCVCY'),
@@ -155,24 +155,24 @@ const WhyExistSection7 = (props) => {
 }
 
 WhyExistSection7.defaultProps = {
-  plaqueStatement: undefined,
-  quoteMark: undefined,
-  sectionContent: undefined,
-  rootClassName: '',
-  heroTitle: undefined,
   text: undefined,
   closingStatement: undefined,
+  sectionContent: undefined,
+  plaqueStatement: undefined,
+  quoteMark: undefined,
+  heroTitle: undefined,
+  rootClassName: '',
   quoteMark1: undefined,
 }
 
 WhyExistSection7.propTypes = {
-  plaqueStatement: PropTypes.element,
-  quoteMark: PropTypes.element,
-  sectionContent: PropTypes.element,
-  rootClassName: PropTypes.string,
-  heroTitle: PropTypes.element,
   text: PropTypes.element,
   closingStatement: PropTypes.element,
+  sectionContent: PropTypes.element,
+  plaqueStatement: PropTypes.element,
+  quoteMark: PropTypes.element,
+  heroTitle: PropTypes.element,
+  rootClassName: PropTypes.string,
   quoteMark1: PropTypes.element,
 }
 

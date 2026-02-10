@@ -14,7 +14,7 @@ const TestimonialsSection5 = (props) => {
           <h2 className="section-title">
             {props.sectionTitle ?? (
               <Fragment>
-                <span className="testimonials-section5-text16">
+                <span className="testimonials-section5-text13">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('SectionTitle_Fzp7UQ'),
@@ -46,7 +46,7 @@ const TestimonialsSection5 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="testimonials-section5-text18">
+                    <span className="testimonials-section5-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_ylzUOB'),
@@ -73,7 +73,7 @@ const TestimonialsSection5 = (props) => {
                 <span className="author-role">
                   {props.authorRole ?? (
                     <Fragment>
-                      <span className="testimonials-section5-text19">
+                      <span className="testimonials-section5-text16">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_tY5dmt'),
@@ -106,7 +106,7 @@ const TestimonialsSection5 = (props) => {
               <p className="section-content">
                 {props.sectionContent1 ?? (
                   <Fragment>
-                    <span className="testimonials-section5-text11">
+                    <span className="testimonials-section5-text14">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_6sWZfy'),
@@ -120,7 +120,7 @@ const TestimonialsSection5 = (props) => {
                 <span className="author-name">
                   {props.authorName1 ?? (
                     <Fragment>
-                      <span className="testimonials-section5-text17">
+                      <span className="testimonials-section5-text18">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_cSDYaT'),
@@ -166,7 +166,7 @@ const TestimonialsSection5 = (props) => {
               <p className="section-content">
                 {props.sectionContent2 ?? (
                   <Fragment>
-                    <span className="testimonials-section5-text14">
+                    <span className="testimonials-section5-text10">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_uS3Zxc'),
@@ -180,7 +180,7 @@ const TestimonialsSection5 = (props) => {
                 <span className="author-name">
                   {props.authorName2 ?? (
                     <Fragment>
-                      <span className="testimonials-section5-text13">
+                      <span className="testimonials-section5-text11">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_Lz9oEf'),
@@ -193,7 +193,7 @@ const TestimonialsSection5 = (props) => {
                 <span className="author-role">
                   {props.authorRole2 ?? (
                     <Fragment>
-                      <span className="testimonials-section5-text10">
+                      <span className="testimonials-section5-text19">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_4hsanO'),
@@ -286,30 +286,30 @@ const TestimonialsSection5 = (props) => {
 }
 
 TestimonialsSection5.defaultProps = {
-  authorRole2: undefined,
-  sectionContent1: undefined,
-  authorRole1: undefined,
-  authorName2: undefined,
   sectionContent2: undefined,
-  authorName: undefined,
+  authorName2: undefined,
+  authorRole1: undefined,
   sectionTitle: undefined,
-  authorName1: undefined,
-  sectionContent: undefined,
+  sectionContent1: undefined,
+  authorName: undefined,
   authorRole: undefined,
+  sectionContent: undefined,
+  authorName1: undefined,
+  authorRole2: undefined,
   rootClassName: '',
 }
 
 TestimonialsSection5.propTypes = {
-  authorRole2: PropTypes.element,
-  sectionContent1: PropTypes.element,
-  authorRole1: PropTypes.element,
-  authorName2: PropTypes.element,
   sectionContent2: PropTypes.element,
-  authorName: PropTypes.element,
+  authorName2: PropTypes.element,
+  authorRole1: PropTypes.element,
   sectionTitle: PropTypes.element,
-  authorName1: PropTypes.element,
-  sectionContent: PropTypes.element,
+  sectionContent1: PropTypes.element,
+  authorName: PropTypes.element,
   authorRole: PropTypes.element,
+  sectionContent: PropTypes.element,
+  authorName1: PropTypes.element,
+  authorRole2: PropTypes.element,
   rootClassName: PropTypes.string,
 }
 

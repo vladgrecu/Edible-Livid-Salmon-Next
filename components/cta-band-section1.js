@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl'
 import CtaSection11 from './cta-section11'
 import FeaturesSection2 from './features-section2'
 import FeaturesSection1 from './features-section1'
-import InteractiveHero1111 from './interactive-hero1111'
+import InteractiveHero11112 from './interactive-hero11112'
 import MissionSection from './mission-section'
 import TeamSection from './team-section'
 import TrustSection from './trust-section'
@@ -497,10 +497,10 @@ const CtaBandSection1 = (props) => {
           }
           locale={props?.locale ?? ''}
         ></FeaturesSection1>
-        <InteractiveHero1111
-          rootClassName="interactive-hero1111root-class-name1"
+        <InteractiveHero11112
+          rootClassName="interactive-hero11112root-class-name1"
           locale={props?.locale ?? ''}
-        ></InteractiveHero1111>
+        ></InteractiveHero11112>
         <MissionSection
           sectionTitle={
             <Fragment>

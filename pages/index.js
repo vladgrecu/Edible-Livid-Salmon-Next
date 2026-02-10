@@ -943,12 +943,12 @@ transform: scale(1);}}
           className="home-video5"
         ></video>
         <CtaBandSection2
-          sectionTitle={
+          text={
             <Fragment>
               <span className="home-text76">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zbgdiG'),
+                    __html: translate.raw('text_itlswK'),
                   }}
                 ></span>
               </span>
@@ -965,12 +965,12 @@ transform: scale(1);}}
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="home-text78">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_itlswK'),
+                    __html: translate.raw('text_zbgdiG'),
                   }}
                 ></span>
               </span>
@@ -990,12 +990,12 @@ transform: scale(1);}}
           locale={props?.locale ?? ''}
         ></CtaBandSection2>
         <CtaBandSection3
-          sectionTitle={
+          text={
             <Fragment>
               <span className="home-text80">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8qG8eh'),
+                    __html: translate.raw('text_eBItoz'),
                   }}
                 ></span>
               </span>
@@ -1012,12 +1012,12 @@ transform: scale(1);}}
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="home-text82">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_eBItoz'),
+                    __html: translate.raw('text_8qG8eh'),
                   }}
                 ></span>
               </span>
@@ -1037,12 +1037,12 @@ transform: scale(1);}}
           locale={props?.locale ?? ''}
         ></CtaBandSection3>
         <CtaBandSection4
-          sectionTitle={
+          text={
             <Fragment>
               <span className="home-text84">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_KCG4Q8'),
+                    __html: translate.raw('text_00qQKg'),
                   }}
                 ></span>
               </span>
@@ -1059,12 +1059,12 @@ transform: scale(1);}}
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="home-text86">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_00qQKg'),
+                    __html: translate.raw('text_KCG4Q8'),
                   }}
                 ></span>
               </span>
@@ -1084,12 +1084,12 @@ transform: scale(1);}}
           locale={props?.locale ?? ''}
         ></CtaBandSection4>
         <CtaBandSection5
-          sectionTitle={
+          text={
             <Fragment>
               <span className="home-text88">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_o3Uv21'),
+                    __html: translate.raw('text_AZe6tc'),
                   }}
                 ></span>
               </span>
@@ -1106,12 +1106,12 @@ transform: scale(1);}}
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="home-text90">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AZe6tc'),
+                    __html: translate.raw('text_o3Uv21'),
                   }}
                 ></span>
               </span>
@@ -1131,12 +1131,12 @@ transform: scale(1);}}
           locale={props?.locale ?? ''}
         ></CtaBandSection5>
         <CtaBandSection6
-          sectionTitle={
+          text={
             <Fragment>
               <span className="home-text92">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_pqAf5r'),
+                    __html: translate.raw('text_gLHgqI'),
                   }}
                 ></span>
               </span>
@@ -1153,12 +1153,12 @@ transform: scale(1);}}
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="home-text94">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gLHgqI'),
+                    __html: translate.raw('text_pqAf5r'),
                   }}
                 ></span>
               </span>

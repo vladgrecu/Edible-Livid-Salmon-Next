@@ -24,7 +24,7 @@ const CtaBandSection11 = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="cta-band-section11-text73">
+                  <span className="cta-band-section11-text76">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle_NRYt8g'),
@@ -37,7 +37,7 @@ const CtaBandSection11 = (props) => {
             <p className="section-content">
               {props.sectionContent ?? (
                 <Fragment>
-                  <span className="cta-band-section11-text76">
+                  <span className="cta-band-section11-text75">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionContent_g5YrGU'),
@@ -53,7 +53,7 @@ const CtaBandSection11 = (props) => {
                   <span>
                     {props.text ?? (
                       <Fragment>
-                        <span className="cta-band-section11-text75">
+                        <span className="cta-band-section11-text73">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_dtJb5H'),
@@ -97,6 +97,7 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           heroTitle={
             <Fragment>
               <span className="cta-band-section11-text13">
@@ -164,7 +165,6 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhyExistSection10>
         <WhatIsSection10
           text={
@@ -255,6 +255,7 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           specLabel={
             <Fragment>
               <span className="cta-band-section11-text27">
@@ -366,26 +367,25 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhatIsSection10>
         <TrustSection10
-          text7={
+          text={
             <Fragment>
               <span className="cta-band-section11-text37">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ACSdWU'),
+                    __html: translate.raw('text_U2mEPT'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          text={
+          text1={
             <Fragment>
               <span className="cta-band-section11-text38">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_U2mEPT'),
+                    __html: translate.raw('text_xjXk2h'),
                   }}
                 ></span>
               </span>
@@ -402,42 +402,9 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          sectionSubtitle={
-            <Fragment>
-              <span className="cta-band-section11-text40">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Qk_PVl'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text1={
-            <Fragment>
-              <span className="cta-band-section11-text41">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xjXk2h'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionContent={
-            <Fragment>
-              <span className="cta-band-section11-text42">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ODa1Pr'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text3={
             <Fragment>
-              <span className="cta-band-section11-text43">
+              <span className="cta-band-section11-text40">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_sY8Afc'),
@@ -448,7 +415,7 @@ const CtaBandSection11 = (props) => {
           }
           text4={
             <Fragment>
-              <span className="cta-band-section11-text44">
+              <span className="cta-band-section11-text41">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_8RT8pk'),
@@ -457,31 +424,9 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          text6={
-            <Fragment>
-              <span className="cta-band-section11-text45">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_n-JrQF'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text8={
-            <Fragment>
-              <span className="cta-band-section11-text46">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jg833c'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text5={
             <Fragment>
-              <span className="cta-band-section11-text47">
+              <span className="cta-band-section11-text42">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_HGol0A'),
@@ -490,12 +435,69 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
+          text6={
+            <Fragment>
+              <span className="cta-band-section11-text43">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_n-JrQF'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text7={
+            <Fragment>
+              <span className="cta-band-section11-text44">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ACSdWU'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text8={
+            <Fragment>
+              <span className="cta-band-section11-text45">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_jg833c'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          locale={props?.locale ?? ''}
           sectionTitle={
+            <Fragment>
+              <span className="cta-band-section11-text46">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_UxpbEu'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="trust-section10root-class-name"
+          sectionContent={
+            <Fragment>
+              <span className="cta-band-section11-text47">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ODa1Pr'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle={
             <Fragment>
               <span className="cta-band-section11-text48">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_UxpbEu'),
+                    __html: translate.raw('text_Qk_PVl'),
                   }}
                 ></span>
               </span>
@@ -512,24 +514,12 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          rootClassName="trust-section10root-class-name"
-          locale={props?.locale ?? ''}
         ></TrustSection10>
         <TimelineSection5
-          sectionTitle={
-            <Fragment>
-              <span className="cta-band-section11-text50">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IOFG70'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
+          locale={props?.locale ?? ''}
           dateStamp={
             <Fragment>
-              <span className="cta-band-section11-text51">
+              <span className="cta-band-section11-text50">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_u1QAOB'),
@@ -538,23 +528,12 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          dateStamp3={
+          dateStamp1={
             <Fragment>
-              <span className="cta-band-section11-text52">
+              <span className="cta-band-section11-text51">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Zwq20O'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionSubtitle1={
-            <Fragment>
-              <span className="cta-band-section11-text53">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_kJzzYk'),
+                    __html: translate.raw('text_Y5LHHu'),
                   }}
                 ></span>
               </span>
@@ -562,7 +541,7 @@ const CtaBandSection11 = (props) => {
           }
           dateStamp2={
             <Fragment>
-              <span className="cta-band-section11-text54">
+              <span className="cta-band-section11-text52">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_0V4qAV'),
@@ -571,6 +550,29 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
+          dateStamp3={
+            <Fragment>
+              <span className="cta-band-section11-text53">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Zwq20O'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionTitle={
+            <Fragment>
+              <span className="cta-band-section11-text54">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_IOFG70'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="timeline-section5root-class-name"
           sectionContent={
             <Fragment>
               <span className="cta-band-section11-text55">
@@ -582,9 +584,20 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          sectionContent2={
+          sectionContent1={
             <Fragment>
               <span className="cta-band-section11-text56">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_-T9hNx'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionContent2={
+            <Fragment>
+              <span className="cta-band-section11-text57">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_azfK0K'),
@@ -593,23 +606,12 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          sectionSubtitle3={
-            <Fragment>
-              <span className="cta-band-section11-text57">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_tXgy-f'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionSubtitle2={
+          sectionContent3={
             <Fragment>
               <span className="cta-band-section11-text58">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8XegKv'),
+                    __html: translate.raw('text_W5AUEA'),
                   }}
                 ></span>
               </span>
@@ -626,71 +628,70 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          dateStamp1={
+          sectionSubtitle1={
             <Fragment>
               <span className="cta-band-section11-text60">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Y5LHHu'),
+                    __html: translate.raw('text_kJzzYk'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          sectionContent3={
+          sectionSubtitle2={
             <Fragment>
               <span className="cta-band-section11-text61">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_W5AUEA'),
+                    __html: translate.raw('text_8XegKv'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          sectionContent1={
+          sectionSubtitle3={
             <Fragment>
               <span className="cta-band-section11-text62">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-T9hNx'),
+                    __html: translate.raw('text_tXgy-f'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="timeline-section5root-class-name"
-          locale={props?.locale ?? ''}
         ></TimelineSection5>
         <TestimonialsSection5
-          authorRole2={
+          locale={props?.locale ?? ''}
+          authorName={
             <Fragment>
               <span className="cta-band-section11-text63">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JqLr0w'),
+                    __html: translate.raw('text_eDNctQ'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          sectionContent1={
+          authorRole={
             <Fragment>
               <span className="cta-band-section11-text64">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8JX2lL'),
+                    __html: translate.raw('text__MCNu-'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          authorRole1={
+          authorName1={
             <Fragment>
               <span className="cta-band-section11-text65">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_hIrZdA'),
+                    __html: translate.raw('text_FBIQ-L'),
                   }}
                 ></span>
               </span>
@@ -707,23 +708,23 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          sectionContent2={
+          authorRole1={
             <Fragment>
               <span className="cta-band-section11-text67">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6K_Ztl'),
+                    __html: translate.raw('text_hIrZdA'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          authorName={
+          authorRole2={
             <Fragment>
               <span className="cta-band-section11-text68">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_eDNctQ'),
+                    __html: translate.raw('text_JqLr0w'),
                   }}
                 ></span>
               </span>
@@ -740,20 +741,10 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          authorName1={
-            <Fragment>
-              <span className="cta-band-section11-text70">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FBIQ-L'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
+          rootClassName="testimonials-section5root-class-name"
           sectionContent={
             <Fragment>
-              <span className="cta-band-section11-text71">
+              <span className="cta-band-section11-text70">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FlJC1W'),
@@ -762,19 +753,28 @@ const CtaBandSection11 = (props) => {
               </span>
             </Fragment>
           }
-          authorRole={
+          sectionContent1={
             <Fragment>
-              <span className="cta-band-section11-text72">
+              <span className="cta-band-section11-text71">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__MCNu-'),
+                    __html: translate.raw('text_8JX2lL'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="testimonials-section5root-class-name"
-          locale={props?.locale ?? ''}
+          sectionContent2={
+            <Fragment>
+              <span className="cta-band-section11-text72">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_6K_Ztl'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
         ></TestimonialsSection5>
       </section>
       <style jsx>
@@ -984,17 +984,17 @@ const CtaBandSection11 = (props) => {
 }
 
 CtaBandSection11.defaultProps = {
-  sectionTitle: undefined,
-  text1: undefined,
   text: undefined,
+  text1: undefined,
   sectionContent: undefined,
+  sectionTitle: undefined,
 }
 
 CtaBandSection11.propTypes = {
-  sectionTitle: PropTypes.element,
-  text1: PropTypes.element,
   text: PropTypes.element,
+  text1: PropTypes.element,
   sectionContent: PropTypes.element,
+  sectionTitle: PropTypes.element,
 }
 
 export default CtaBandSection11

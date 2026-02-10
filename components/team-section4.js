@@ -17,7 +17,7 @@ const TeamSection4 = (props) => {
               <h2 className="section-title">
                 {props.sectionTitle ?? (
                   <Fragment>
-                    <span className="team-section4-text12">
+                    <span className="team-section4-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_Q3dAHu'),
@@ -30,7 +30,7 @@ const TeamSection4 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="team-section4-text20">
+                    <span className="team-section4-text13">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_8-aMB9'),
@@ -44,7 +44,7 @@ const TeamSection4 = (props) => {
                 <span className="chip">
                   {props.chip ?? (
                     <Fragment>
-                      <span className="team-section4-text14">
+                      <span className="team-section4-text19">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_aFjhki'),
@@ -57,7 +57,7 @@ const TeamSection4 = (props) => {
                 <span className="chip">
                   {props.chip1 ?? (
                     <Fragment>
-                      <span className="team-section4-text13">
+                      <span className="team-section4-text14">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_h8YkF8'),
@@ -70,7 +70,7 @@ const TeamSection4 = (props) => {
                 <span className="chip">
                   {props.chip2 ?? (
                     <Fragment>
-                      <span className="team-section4-text15">
+                      <span className="team-section4-text12">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('Chip_569p7r'),
@@ -108,7 +108,7 @@ const TeamSection4 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle1 ?? (
                     <Fragment>
-                      <span className="team-section4-text10">
+                      <span className="team-section4-text15">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_97kg8S'),
@@ -144,7 +144,7 @@ const TeamSection4 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle3 ?? (
                     <Fragment>
-                      <span className="team-section4-text18">
+                      <span className="team-section4-text11">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_NkOPry'),
@@ -162,7 +162,7 @@ const TeamSection4 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle4 ?? (
                     <Fragment>
-                      <span className="team-section4-text11">
+                      <span className="team-section4-text10">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_FLzrCF'),
@@ -180,7 +180,7 @@ const TeamSection4 = (props) => {
                 <span className="section-subtitle">
                   {props.sectionSubtitle5 ?? (
                     <Fragment>
-                      <span className="team-section4-text19">
+                      <span className="team-section4-text18">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_Jvy8_G'),
@@ -240,33 +240,33 @@ const TeamSection4 = (props) => {
 }
 
 TeamSection4.defaultProps = {
-  sectionSubtitle1: undefined,
   sectionSubtitle4: undefined,
-  sectionTitle: undefined,
-  rootClassName: '',
-  chip1: undefined,
-  chip: undefined,
+  sectionSubtitle3: undefined,
   chip2: undefined,
+  sectionContent: undefined,
+  chip1: undefined,
+  sectionSubtitle1: undefined,
   sectionSubtitle: undefined,
   sectionSubtitle2: undefined,
-  sectionSubtitle3: undefined,
   sectionSubtitle5: undefined,
-  sectionContent: undefined,
+  chip: undefined,
+  sectionTitle: undefined,
+  rootClassName: '',
 }
 
 TeamSection4.propTypes = {
-  sectionSubtitle1: PropTypes.element,
   sectionSubtitle4: PropTypes.element,
-  sectionTitle: PropTypes.element,
-  rootClassName: PropTypes.string,
-  chip1: PropTypes.element,
-  chip: PropTypes.element,
+  sectionSubtitle3: PropTypes.element,
   chip2: PropTypes.element,
+  sectionContent: PropTypes.element,
+  chip1: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
   sectionSubtitle: PropTypes.element,
   sectionSubtitle2: PropTypes.element,
-  sectionSubtitle3: PropTypes.element,
   sectionSubtitle5: PropTypes.element,
-  sectionContent: PropTypes.element,
+  chip: PropTypes.element,
+  sectionTitle: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default TeamSection4

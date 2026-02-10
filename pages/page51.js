@@ -55,12 +55,12 @@ const Page51 = (props) => {
           />
         </Head>
         <CtaBandSection7
-          sectionTitle={
+          text={
             <Fragment>
               <span className="page51-text10">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_qvdnc4'),
+                    __html: translate.raw('text_t6_v0d'),
                   }}
                 ></span>
               </span>
@@ -77,12 +77,12 @@ const Page51 = (props) => {
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="page51-text12">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_t6_v0d'),
+                    __html: translate.raw('text_qvdnc4'),
                   }}
                 ></span>
               </span>
@@ -102,12 +102,12 @@ const Page51 = (props) => {
           locale={props?.locale ?? ''}
         ></CtaBandSection7>
         <CtaBandSection8
-          sectionTitle={
+          text={
             <Fragment>
               <span className="page51-text14">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IMtAhj'),
+                    __html: translate.raw('text_ZndpS6'),
                   }}
                 ></span>
               </span>
@@ -124,12 +124,12 @@ const Page51 = (props) => {
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="page51-text16">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZndpS6'),
+                    __html: translate.raw('text_IMtAhj'),
                   }}
                 ></span>
               </span>
@@ -149,12 +149,12 @@ const Page51 = (props) => {
           locale={props?.locale ?? ''}
         ></CtaBandSection8>
         <CtaBandSection9
-          sectionTitle={
+          text={
             <Fragment>
               <span className="page51-text18">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_PgTQIZ'),
+                    __html: translate.raw('text_TYb_KD'),
                   }}
                 ></span>
               </span>
@@ -171,12 +171,12 @@ const Page51 = (props) => {
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="page51-text20">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TYb_KD'),
+                    __html: translate.raw('text_PgTQIZ'),
                   }}
                 ></span>
               </span>
@@ -196,12 +196,12 @@ const Page51 = (props) => {
           locale={props?.locale ?? ''}
         ></CtaBandSection9>
         <CtaBandSection10
-          sectionTitle={
+          text={
             <Fragment>
               <span className="page51-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ngfTof'),
+                    __html: translate.raw('text_VMi8ZZ'),
                   }}
                 ></span>
               </span>
@@ -218,12 +218,12 @@ const Page51 = (props) => {
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="page51-text24">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_VMi8ZZ'),
+                    __html: translate.raw('text_ngfTof'),
                   }}
                 ></span>
               </span>
@@ -243,12 +243,12 @@ const Page51 = (props) => {
           locale={props?.locale ?? ''}
         ></CtaBandSection10>
         <CtaBandSection11
-          sectionTitle={
+          text={
             <Fragment>
               <span className="page51-text26">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_VZmyY0'),
+                    __html: translate.raw('text_RO0P0C'),
                   }}
                 ></span>
               </span>
@@ -265,12 +265,12 @@ const Page51 = (props) => {
               </span>
             </Fragment>
           }
-          text={
+          sectionTitle={
             <Fragment>
               <span className="page51-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_RO0P0C'),
+                    __html: translate.raw('text_VZmyY0'),
                   }}
                 ></span>
               </span>

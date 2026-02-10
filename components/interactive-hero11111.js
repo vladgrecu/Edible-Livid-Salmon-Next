@@ -1,13 +1,16 @@
 import React from 'react'
 
 import Script from 'dangerous-html/react'
+import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const InteractiveHero11111 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="interactive-hero11111-container1">
+      <div
+        className={`interactive-hero11111-container1 ${props.rootClassName} `}
+      >
         <div className="interactive-hero11111-container2">
           <div className="interactive-hero11111-container3">
             <Script
@@ -58,7 +61,7 @@ const InteractiveHero11111 = (props) => {
                 <span className="section-content">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('SectionContent_HqMkyP'),
+                      __html: translate.raw('SectionContent_HckhD_'),
                     }}
                   ></span>
                 </span>
@@ -66,14 +69,14 @@ const InteractiveHero11111 = (props) => {
               <h1 className="hero-title">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('HeroTitle_yLoDue'),
+                    __html: translate.raw('HeroTitle_oE9JYW'),
                   }}
                 ></span>
               </h1>
               <p className="hero-subtitle">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('HeroSubtitle_z6dzEi'),
+                    __html: translate.raw('HeroSubtitle_luD_X7'),
                   }}
                 ></span>
               </p>
@@ -83,7 +86,7 @@ const InteractiveHero11111 = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_Cv_TFf'),
+                          __html: translate.raw('text_07ucNS'),
                         }}
                       ></span>
                     </span>
@@ -107,7 +110,7 @@ const InteractiveHero11111 = (props) => {
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_mou9Ip'),
+                          __html: translate.raw('text_KhyXTD'),
                         }}
                       ></span>
                     </span>
@@ -135,7 +138,7 @@ const InteractiveHero11111 = (props) => {
                     <span className="section-content">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('SectionContent_R79OoC'),
+                          __html: translate.raw('SectionContent_FZIjhZ'),
                         }}
                       ></span>
                     </span>
@@ -168,7 +171,7 @@ const InteractiveHero11111 = (props) => {
                     <span className="section-content">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('SectionContent_xejmBL'),
+                          __html: translate.raw('SectionContent_-pW1hJ'),
                         }}
                       ></span>
                     </span>
@@ -177,7 +180,7 @@ const InteractiveHero11111 = (props) => {
                     <span className="section-content">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('SectionContent_5N0LTp'),
+                          __html: translate.raw('SectionContent_Eei3Jr'),
                         }}
                       ></span>
                     </span>
@@ -186,7 +189,7 @@ const InteractiveHero11111 = (props) => {
                     <span className="section-content">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('SectionContent_g16E4j'),
+                          __html: translate.raw('SectionContent_0B5w7I'),
                         }}
                       ></span>
                     </span>
@@ -195,7 +198,7 @@ const InteractiveHero11111 = (props) => {
                     <span className="section-content">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('SectionContent_wzlLRj'),
+                          __html: translate.raw('SectionContent_RQjnGz'),
                         }}
                       ></span>
                     </span>
@@ -204,7 +207,7 @@ const InteractiveHero11111 = (props) => {
                     <span className="section-content">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('SectionContent_HeXQnr'),
+                          __html: translate.raw('SectionContent_1Fe-bC'),
                         }}
                       ></span>
                     </span>
@@ -217,7 +220,7 @@ const InteractiveHero11111 = (props) => {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw(
-                          'InteractiveHeroStatValue_UOPLf0'
+                          'InteractiveHeroStatValue_u-a7Z0'
                         ),
                       }}
                     ></span>
@@ -225,7 +228,7 @@ const InteractiveHero11111 = (props) => {
                   <span className="section-content">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('SectionContent_OdrQRn'),
+                        __html: translate.raw('SectionContent_UqlZIp'),
                       }}
                     ></span>
                   </span>
@@ -235,7 +238,7 @@ const InteractiveHero11111 = (props) => {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw(
-                          'InteractiveHeroStatValue_2z2Rrb'
+                          'InteractiveHeroStatValue_bpByFj'
                         ),
                       }}
                     ></span>
@@ -243,7 +246,7 @@ const InteractiveHero11111 = (props) => {
                   <span className="section-content">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('SectionContent_wLn02E'),
+                        __html: translate.raw('SectionContent_bdIg6p'),
                       }}
                     ></span>
                   </span>
@@ -389,6 +392,14 @@ const InteractiveHero11111 = (props) => {
       </style>
     </>
   )
+}
+
+InteractiveHero11111.defaultProps = {
+  rootClassName: '',
+}
+
+InteractiveHero11111.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default InteractiveHero11111

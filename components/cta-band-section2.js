@@ -34,7 +34,7 @@ const CtaBandSection2 = (props) => {
             <p className="section-content">
               {props.sectionContent ?? (
                 <Fragment>
-                  <span className="cta-band-section2-text40">
+                  <span className="cta-band-section2-text38">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionContent_g5YrGU'),
@@ -67,7 +67,7 @@ const CtaBandSection2 = (props) => {
                   <span>
                     {props.text1 ?? (
                       <Fragment>
-                        <span className="cta-band-section2-text38">
+                        <span className="cta-band-section2-text40">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_3GGNSY'),
@@ -94,6 +94,7 @@ const CtaBandSection2 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           heroTitle={
             <Fragment>
               <span className="cta-band-section2-text13">
@@ -161,7 +162,6 @@ const CtaBandSection2 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhyExistSection1>
         <WhatIsSection1
           text={
@@ -252,6 +252,7 @@ const CtaBandSection2 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           specLabel={
             <Fragment>
               <span className="cta-band-section2-text27">
@@ -363,7 +364,6 @@ const CtaBandSection2 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhatIsSection1>
       </section>
       <style jsx>
@@ -466,16 +466,16 @@ const CtaBandSection2 = (props) => {
 
 CtaBandSection2.defaultProps = {
   sectionTitle: undefined,
-  text1: undefined,
-  text: undefined,
   sectionContent: undefined,
+  text: undefined,
+  text1: undefined,
 }
 
 CtaBandSection2.propTypes = {
   sectionTitle: PropTypes.element,
-  text1: PropTypes.element,
-  text: PropTypes.element,
   sectionContent: PropTypes.element,
+  text: PropTypes.element,
+  text1: PropTypes.element,
 }
 
 export default CtaBandSection2

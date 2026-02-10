@@ -16,7 +16,7 @@ const MissionSection11 = (props) => {
               <h2 className="section-title">
                 {props.sectionTitle ?? (
                   <Fragment>
-                    <span className="mission-section11-text7">
+                    <span className="mission-section11-text5">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_Vy3dJh'),
@@ -29,7 +29,7 @@ const MissionSection11 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="mission-section11-text2">
+                    <span className="mission-section11-text3">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_82ZIyq'),
@@ -60,7 +60,7 @@ const MissionSection11 = (props) => {
                 <p className="section-content">
                   {props.sectionContent1 ?? (
                     <Fragment>
-                      <span className="mission-section11-text4">
+                      <span className="mission-section11-text6">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_jbrVay'),
@@ -76,7 +76,7 @@ const MissionSection11 = (props) => {
                 <h3 className="section-subtitle">
                   {props.sectionSubtitle1 ?? (
                     <Fragment>
-                      <span className="mission-section11-text3">
+                      <span className="mission-section11-text7">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_iQoQu-'),
@@ -89,7 +89,7 @@ const MissionSection11 = (props) => {
                 <p className="section-content">
                   {props.sectionContent2 ?? (
                     <Fragment>
-                      <span className="mission-section11-text5">
+                      <span className="mission-section11-text4">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_wRqrtu'),
@@ -105,7 +105,7 @@ const MissionSection11 = (props) => {
                 <h3 className="section-subtitle">
                   {props.sectionSubtitle2 ?? (
                     <Fragment>
-                      <span className="mission-section11-text6">
+                      <span className="mission-section11-text2">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionSubtitle_36F2i0'),
@@ -170,25 +170,25 @@ const MissionSection11 = (props) => {
 
 MissionSection11.defaultProps = {
   sectionContent3: undefined,
-  sectionContent: undefined,
-  sectionSubtitle1: undefined,
-  sectionContent1: undefined,
-  sectionContent2: undefined,
   sectionSubtitle2: undefined,
+  sectionContent: undefined,
+  sectionContent2: undefined,
   rootClassName: '',
   sectionTitle: undefined,
+  sectionContent1: undefined,
+  sectionSubtitle1: undefined,
   sectionSubtitle: undefined,
 }
 
 MissionSection11.propTypes = {
   sectionContent3: PropTypes.element,
-  sectionContent: PropTypes.element,
-  sectionSubtitle1: PropTypes.element,
-  sectionContent1: PropTypes.element,
-  sectionContent2: PropTypes.element,
   sectionSubtitle2: PropTypes.element,
+  sectionContent: PropTypes.element,
+  sectionContent2: PropTypes.element,
   rootClassName: PropTypes.string,
   sectionTitle: PropTypes.element,
+  sectionContent1: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
   sectionSubtitle: PropTypes.element,
 }
 

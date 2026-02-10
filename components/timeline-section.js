@@ -284,8 +284,8 @@ TimelineSection.defaultProps = {
   sectionSubtitle: undefined,
   dateStamp1: undefined,
   sectionContent3: undefined,
-  sectionContent1: undefined,
   rootClassName: '',
+  sectionContent1: undefined,
 }
 
 TimelineSection.propTypes = {
@@ -301,8 +301,8 @@ TimelineSection.propTypes = {
   sectionSubtitle: PropTypes.element,
   dateStamp1: PropTypes.element,
   sectionContent3: PropTypes.element,
-  sectionContent1: PropTypes.element,
   rootClassName: PropTypes.string,
+  sectionContent1: PropTypes.element,
 }
 
 export default TimelineSection

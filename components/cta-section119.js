@@ -15,7 +15,7 @@ const CtaSection119 = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="cta-section119-text25">
+                  <span className="cta-section119-text23">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_9MNN9m'),
@@ -28,7 +28,7 @@ const CtaSection119 = (props) => {
             <p className="section-subtitle">
               {props.sectionSubtitle ?? (
                 <Fragment>
-                  <span className="cta-section119-text17">
+                  <span className="cta-section119-text21">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_nQCvlb'),
@@ -64,7 +64,7 @@ const CtaSection119 = (props) => {
                   <span>
                     {props.btn ?? (
                       <Fragment>
-                        <span className="cta-section119-text16">
+                        <span className="cta-section119-text26">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_7wK99s'),
@@ -79,7 +79,7 @@ const CtaSection119 = (props) => {
               <p className="form-disclaimer">
                 {props.formDisclaimer ?? (
                   <Fragment>
-                    <span className="cta-section119-text18">
+                    <span className="cta-section119-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_l_ws6M'),
@@ -95,7 +95,7 @@ const CtaSection119 = (props) => {
             <h3 className="section-title">
               {props.sectionTitle1 ?? (
                 <Fragment>
-                  <span className="cta-section119-text20">
+                  <span className="cta-section119-text22">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_r6m2Wb'),
@@ -111,7 +111,7 @@ const CtaSection119 = (props) => {
                   <span>
                     {props.text1 ?? (
                       <Fragment>
-                        <span className="cta-section119-text27">
+                        <span className="cta-section119-text25">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_w4FrrB'),
@@ -128,7 +128,7 @@ const CtaSection119 = (props) => {
                   <span>
                     {props.text2 ?? (
                       <Fragment>
-                        <span className="cta-section119-text23">
+                        <span className="cta-section119-text18">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_e3qp-E'),
@@ -145,7 +145,7 @@ const CtaSection119 = (props) => {
                   <span>
                     {props.text3 ?? (
                       <Fragment>
-                        <span className="cta-section119-text22">
+                        <span className="cta-section119-text27">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_bT58aY'),
@@ -162,7 +162,7 @@ const CtaSection119 = (props) => {
                   <span>
                     {props.text4 ?? (
                       <Fragment>
-                        <span className="cta-section119-text26">
+                        <span className="cta-section119-text19">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_XHC5mV'),
@@ -180,7 +180,7 @@ const CtaSection119 = (props) => {
             <h3 className="section-title">
               {props.sectionTitle2 ?? (
                 <Fragment>
-                  <span className="cta-section119-text24">
+                  <span className="cta-section119-text20">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_lgZJT4'),
@@ -193,7 +193,7 @@ const CtaSection119 = (props) => {
             <p className="section-content">
               {props.sectionContent ?? (
                 <Fragment>
-                  <span className="cta-section119-text21">
+                  <span className="cta-section119-text16">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_Ho_17D'),
@@ -208,7 +208,7 @@ const CtaSection119 = (props) => {
                 <span>
                   {props.text ?? (
                     <Fragment>
-                      <span className="cta-section119-text19">
+                      <span className="cta-section119-text24">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_xEC90i'),
@@ -271,37 +271,37 @@ const CtaSection119 = (props) => {
 }
 
 CtaSection119.defaultProps = {
-  btn: undefined,
-  sectionSubtitle: undefined,
-  formDisclaimer: undefined,
-  text: undefined,
-  sectionTitle1: undefined,
   sectionContent: undefined,
   formInputPlaceholder: 'Enter your work email',
-  text3: undefined,
+  formDisclaimer: undefined,
   text2: undefined,
-  sectionTitle2: undefined,
-  sectionTitle: undefined,
   text4: undefined,
-  text1: undefined,
+  sectionTitle2: undefined,
+  sectionSubtitle: undefined,
   rootClassName: '',
+  sectionTitle1: undefined,
+  sectionTitle: undefined,
+  text: undefined,
+  text1: undefined,
+  btn: undefined,
+  text3: undefined,
 }
 
 CtaSection119.propTypes = {
-  btn: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  formDisclaimer: PropTypes.element,
-  text: PropTypes.element,
-  sectionTitle1: PropTypes.element,
   sectionContent: PropTypes.element,
   formInputPlaceholder: PropTypes.string,
-  text3: PropTypes.element,
+  formDisclaimer: PropTypes.element,
   text2: PropTypes.element,
-  sectionTitle2: PropTypes.element,
-  sectionTitle: PropTypes.element,
   text4: PropTypes.element,
-  text1: PropTypes.element,
+  sectionTitle2: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
   rootClassName: PropTypes.string,
+  sectionTitle1: PropTypes.element,
+  sectionTitle: PropTypes.element,
+  text: PropTypes.element,
+  text1: PropTypes.element,
+  btn: PropTypes.element,
+  text3: PropTypes.element,
 }
 
 export default CtaSection119

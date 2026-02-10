@@ -15,7 +15,7 @@ const WhatIsSection4 = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="what-is-section4-text28">
+                  <span className="what-is-section4-text19">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle_FtSOJl'),
@@ -28,7 +28,7 @@ const WhatIsSection4 = (props) => {
             <p className="section-content">
               {props.sectionContent ?? (
                 <Fragment>
-                  <span className="what-is-section4-text21">
+                  <span className="what-is-section4-text23">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionContent_qWmFG2'),
@@ -62,7 +62,7 @@ const WhatIsSection4 = (props) => {
                 <span className="spec-label">
                   {props.specLabel ?? (
                     <Fragment>
-                      <span className="what-is-section4-text22">
+                      <span className="what-is-section4-text33">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SpecLabel_di0AEB'),
@@ -76,7 +76,7 @@ const WhatIsSection4 = (props) => {
               <h3 className="section-subtitle">
                 {props.sectionSubtitle ?? (
                   <Fragment>
-                    <span className="what-is-section4-text32">
+                    <span className="what-is-section4-text21">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionSubtitle_9jsmfy'),
@@ -92,7 +92,7 @@ const WhatIsSection4 = (props) => {
                   <span>
                     {props.text ?? (
                       <Fragment>
-                        <span className="what-is-section4-text18">
+                        <span className="what-is-section4-text22">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_eDsiRR'),
@@ -108,7 +108,7 @@ const WhatIsSection4 = (props) => {
                   <span>
                     {props.text1 ?? (
                       <Fragment>
-                        <span className="what-is-section4-text30">
+                        <span className="what-is-section4-text27">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_Z4Nuk2'),
@@ -146,7 +146,7 @@ const WhatIsSection4 = (props) => {
                 <span className="spec-label">
                   {props.specLabel1 ?? (
                     <Fragment>
-                      <span className="what-is-section4-text20">
+                      <span className="what-is-section4-text30">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SpecLabel_r3oxZ4'),
@@ -160,7 +160,7 @@ const WhatIsSection4 = (props) => {
               <h3 className="section-subtitle">
                 {props.sectionSubtitle1 ?? (
                   <Fragment>
-                    <span className="what-is-section4-text29">
+                    <span className="what-is-section4-text24">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionSubtitle_yiLeEr'),
@@ -176,7 +176,7 @@ const WhatIsSection4 = (props) => {
                   <span>
                     {props.text2 ?? (
                       <Fragment>
-                        <span className="what-is-section4-text33">
+                        <span className="what-is-section4-text29">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_rN6Cag'),
@@ -192,7 +192,7 @@ const WhatIsSection4 = (props) => {
                   <span>
                     {props.text3 ?? (
                       <Fragment>
-                        <span className="what-is-section4-text23">
+                        <span className="what-is-section4-text28">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_Wop0KF'),
@@ -228,7 +228,7 @@ const WhatIsSection4 = (props) => {
                 <span className="spec-label">
                   {props.specLabel2 ?? (
                     <Fragment>
-                      <span className="what-is-section4-text24">
+                      <span className="what-is-section4-text34">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SpecLabel_319bTq'),
@@ -242,7 +242,7 @@ const WhatIsSection4 = (props) => {
               <h3 className="section-subtitle">
                 {props.sectionSubtitle2 ?? (
                   <Fragment>
-                    <span className="what-is-section4-text19">
+                    <span className="what-is-section4-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionSubtitle_NYAtzj'),
@@ -274,7 +274,7 @@ const WhatIsSection4 = (props) => {
                   <span>
                     {props.text5 ?? (
                       <Fragment>
-                        <span className="what-is-section4-text27">
+                        <span className="what-is-section4-text32">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_OrHLrN'),
@@ -310,7 +310,7 @@ const WhatIsSection4 = (props) => {
                 <span className="spec-label">
                   {props.specLabel3 ?? (
                     <Fragment>
-                      <span className="what-is-section4-text34">
+                      <span className="what-is-section4-text31">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SpecLabel_0qobd_'),
@@ -324,7 +324,7 @@ const WhatIsSection4 = (props) => {
               <h3 className="section-subtitle">
                 {props.sectionSubtitle3 ?? (
                   <Fragment>
-                    <span className="what-is-section4-text25">
+                    <span className="what-is-section4-text18">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionSubtitle_f2c1jr'),
@@ -340,7 +340,7 @@ const WhatIsSection4 = (props) => {
                   <span>
                     {props.text6 ?? (
                       <Fragment>
-                        <span className="what-is-section4-text31">
+                        <span className="what-is-section4-text26">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_drcp0f'),
@@ -356,7 +356,7 @@ const WhatIsSection4 = (props) => {
                   <span>
                     {props.text7 ?? (
                       <Fragment>
-                        <span className="what-is-section4-text26">
+                        <span className="what-is-section4-text25">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_0cHXwT'),
@@ -439,46 +439,46 @@ const WhatIsSection4 = (props) => {
 }
 
 WhatIsSection4.defaultProps = {
-  text: undefined,
-  sectionSubtitle2: undefined,
-  specLabel1: undefined,
   rootClassName: '',
-  sectionContent: undefined,
-  specLabel: undefined,
-  text3: undefined,
-  specLabel2: undefined,
   sectionSubtitle3: undefined,
-  text7: undefined,
-  text5: undefined,
   sectionTitle: undefined,
-  sectionSubtitle1: undefined,
-  text1: undefined,
-  text6: undefined,
+  sectionSubtitle2: undefined,
   sectionSubtitle: undefined,
+  text: undefined,
+  sectionContent: undefined,
+  sectionSubtitle1: undefined,
+  text7: undefined,
+  text6: undefined,
+  text1: undefined,
+  text3: undefined,
   text2: undefined,
+  specLabel1: undefined,
   specLabel3: undefined,
+  text5: undefined,
+  specLabel: undefined,
+  specLabel2: undefined,
   text4: undefined,
 }
 
 WhatIsSection4.propTypes = {
-  text: PropTypes.element,
-  sectionSubtitle2: PropTypes.element,
-  specLabel1: PropTypes.element,
   rootClassName: PropTypes.string,
-  sectionContent: PropTypes.element,
-  specLabel: PropTypes.element,
-  text3: PropTypes.element,
-  specLabel2: PropTypes.element,
   sectionSubtitle3: PropTypes.element,
-  text7: PropTypes.element,
-  text5: PropTypes.element,
   sectionTitle: PropTypes.element,
-  sectionSubtitle1: PropTypes.element,
-  text1: PropTypes.element,
-  text6: PropTypes.element,
+  sectionSubtitle2: PropTypes.element,
   sectionSubtitle: PropTypes.element,
+  text: PropTypes.element,
+  sectionContent: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
+  text7: PropTypes.element,
+  text6: PropTypes.element,
+  text1: PropTypes.element,
+  text3: PropTypes.element,
   text2: PropTypes.element,
+  specLabel1: PropTypes.element,
   specLabel3: PropTypes.element,
+  text5: PropTypes.element,
+  specLabel: PropTypes.element,
+  specLabel2: PropTypes.element,
   text4: PropTypes.element,
 }
 

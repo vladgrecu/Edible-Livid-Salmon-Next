@@ -15,7 +15,7 @@ const FeaturesSection16 = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="features-section16-text17">
+                  <span className="features-section16-text13">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_kg374w'),
@@ -28,7 +28,7 @@ const FeaturesSection16 = (props) => {
             <p className="section-subtitle">
               {props.sectionSubtitle ?? (
                 <Fragment>
-                  <span className="features-section16-text18">
+                  <span className="features-section16-text21">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_vGyEUW'),
@@ -64,7 +64,7 @@ const FeaturesSection16 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle1 ?? (
                   <Fragment>
-                    <span className="features-section16-text10">
+                    <span className="features-section16-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_hKHYOX'),
@@ -77,7 +77,7 @@ const FeaturesSection16 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="features-section16-text13">
+                    <span className="features-section16-text14">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_l8lsxw'),
@@ -109,7 +109,7 @@ const FeaturesSection16 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle2 ?? (
                   <Fragment>
-                    <span className="features-section16-text20">
+                    <span className="features-section16-text16">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_GQu-40'),
@@ -122,7 +122,7 @@ const FeaturesSection16 = (props) => {
               <p className="section-content">
                 {props.sectionContent1 ?? (
                   <Fragment>
-                    <span className="features-section16-text21">
+                    <span className="features-section16-text10">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text__iZZvH'),
@@ -156,7 +156,7 @@ const FeaturesSection16 = (props) => {
               <h4 className="section-title">
                 {props.sectionTitle3 ?? (
                   <Fragment>
-                    <span className="features-section16-text11">
+                    <span className="features-section16-text18">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_Ifhdjh'),
@@ -169,7 +169,7 @@ const FeaturesSection16 = (props) => {
               <p className="section-content">
                 {props.sectionContent2 ?? (
                   <Fragment>
-                    <span className="features-section16-text19">
+                    <span className="features-section16-text15">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_kAaTQF'),
@@ -214,7 +214,7 @@ const FeaturesSection16 = (props) => {
               <p className="section-content">
                 {props.sectionContent3 ?? (
                   <Fragment>
-                    <span className="features-section16-text15">
+                    <span className="features-section16-text11">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_Zdu9KY'),
@@ -248,7 +248,7 @@ const FeaturesSection16 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle5 ?? (
                   <Fragment>
-                    <span className="features-section16-text16">
+                    <span className="features-section16-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_9dNop3'),
@@ -261,7 +261,7 @@ const FeaturesSection16 = (props) => {
               <p className="section-content">
                 {props.sectionContent4 ?? (
                   <Fragment>
-                    <span className="features-section16-text14">
+                    <span className="features-section16-text19">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_Fhn8X8'),
@@ -323,35 +323,35 @@ const FeaturesSection16 = (props) => {
 }
 
 FeaturesSection16.defaultProps = {
+  sectionContent1: undefined,
+  sectionContent3: undefined,
+  sectionTitle4: undefined,
+  sectionTitle: undefined,
+  sectionContent: undefined,
+  sectionContent2: undefined,
+  sectionTitle2: undefined,
   sectionTitle1: undefined,
   rootClassName: '',
   sectionTitle3: undefined,
-  sectionTitle4: undefined,
-  sectionContent: undefined,
   sectionContent4: undefined,
-  sectionContent3: undefined,
   sectionTitle5: undefined,
-  sectionTitle: undefined,
   sectionSubtitle: undefined,
-  sectionContent2: undefined,
-  sectionTitle2: undefined,
-  sectionContent1: undefined,
 }
 
 FeaturesSection16.propTypes = {
+  sectionContent1: PropTypes.element,
+  sectionContent3: PropTypes.element,
+  sectionTitle4: PropTypes.element,
+  sectionTitle: PropTypes.element,
+  sectionContent: PropTypes.element,
+  sectionContent2: PropTypes.element,
+  sectionTitle2: PropTypes.element,
   sectionTitle1: PropTypes.element,
   rootClassName: PropTypes.string,
   sectionTitle3: PropTypes.element,
-  sectionTitle4: PropTypes.element,
-  sectionContent: PropTypes.element,
   sectionContent4: PropTypes.element,
-  sectionContent3: PropTypes.element,
   sectionTitle5: PropTypes.element,
-  sectionTitle: PropTypes.element,
   sectionSubtitle: PropTypes.element,
-  sectionContent2: PropTypes.element,
-  sectionTitle2: PropTypes.element,
-  sectionContent1: PropTypes.element,
 }
 
 export default FeaturesSection16

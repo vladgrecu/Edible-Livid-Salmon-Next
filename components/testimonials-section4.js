@@ -14,7 +14,7 @@ const TestimonialsSection4 = (props) => {
           <h2 className="section-title">
             {props.sectionTitle ?? (
               <Fragment>
-                <span className="testimonials-section4-text16">
+                <span className="testimonials-section4-text19">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('SectionTitle_Fzp7UQ'),
@@ -46,7 +46,7 @@ const TestimonialsSection4 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="testimonials-section4-text18">
+                    <span className="testimonials-section4-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_ylzUOB'),
@@ -60,7 +60,7 @@ const TestimonialsSection4 = (props) => {
                 <span className="author-name">
                   {props.authorName ?? (
                     <Fragment>
-                      <span className="testimonials-section4-text15">
+                      <span className="testimonials-section4-text13">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_Lg7auJ'),
@@ -73,7 +73,7 @@ const TestimonialsSection4 = (props) => {
                 <span className="author-role">
                   {props.authorRole ?? (
                     <Fragment>
-                      <span className="testimonials-section4-text19">
+                      <span className="testimonials-section4-text18">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_tY5dmt'),
@@ -106,7 +106,7 @@ const TestimonialsSection4 = (props) => {
               <p className="section-content">
                 {props.sectionContent1 ?? (
                   <Fragment>
-                    <span className="testimonials-section4-text11">
+                    <span className="testimonials-section4-text10">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_6sWZfy'),
@@ -120,7 +120,7 @@ const TestimonialsSection4 = (props) => {
                 <span className="author-name">
                   {props.authorName1 ?? (
                     <Fragment>
-                      <span className="testimonials-section4-text17">
+                      <span className="testimonials-section4-text11">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_cSDYaT'),
@@ -133,7 +133,7 @@ const TestimonialsSection4 = (props) => {
                 <span className="author-role">
                   {props.authorRole1 ?? (
                     <Fragment>
-                      <span className="testimonials-section4-text12">
+                      <span className="testimonials-section4-text15">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_E1OU0z'),
@@ -166,7 +166,7 @@ const TestimonialsSection4 = (props) => {
               <p className="section-content">
                 {props.sectionContent2 ?? (
                   <Fragment>
-                    <span className="testimonials-section4-text14">
+                    <span className="testimonials-section4-text16">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_uS3Zxc'),
@@ -180,7 +180,7 @@ const TestimonialsSection4 = (props) => {
                 <span className="author-name">
                   {props.authorName2 ?? (
                     <Fragment>
-                      <span className="testimonials-section4-text13">
+                      <span className="testimonials-section4-text12">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_Lz9oEf'),
@@ -193,7 +193,7 @@ const TestimonialsSection4 = (props) => {
                 <span className="author-role">
                   {props.authorRole2 ?? (
                     <Fragment>
-                      <span className="testimonials-section4-text10">
+                      <span className="testimonials-section4-text14">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_4hsanO'),
@@ -286,31 +286,31 @@ const TestimonialsSection4 = (props) => {
 }
 
 TestimonialsSection4.defaultProps = {
-  authorRole2: undefined,
   sectionContent1: undefined,
-  authorRole1: undefined,
-  authorName2: undefined,
-  sectionContent2: undefined,
-  authorName: undefined,
-  sectionTitle: undefined,
   authorName1: undefined,
+  authorName2: undefined,
+  authorName: undefined,
+  rootClassName: '',
+  authorRole2: undefined,
+  authorRole1: undefined,
+  sectionContent2: undefined,
   sectionContent: undefined,
   authorRole: undefined,
-  rootClassName: '',
+  sectionTitle: undefined,
 }
 
 TestimonialsSection4.propTypes = {
-  authorRole2: PropTypes.element,
   sectionContent1: PropTypes.element,
-  authorRole1: PropTypes.element,
-  authorName2: PropTypes.element,
-  sectionContent2: PropTypes.element,
-  authorName: PropTypes.element,
-  sectionTitle: PropTypes.element,
   authorName1: PropTypes.element,
+  authorName2: PropTypes.element,
+  authorName: PropTypes.element,
+  rootClassName: PropTypes.string,
+  authorRole2: PropTypes.element,
+  authorRole1: PropTypes.element,
+  sectionContent2: PropTypes.element,
   sectionContent: PropTypes.element,
   authorRole: PropTypes.element,
-  rootClassName: PropTypes.string,
+  sectionTitle: PropTypes.element,
 }
 
 export default TestimonialsSection4

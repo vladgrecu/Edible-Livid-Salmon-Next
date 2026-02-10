@@ -21,7 +21,7 @@ const CtaBandSection5 = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="cta-band-section5-text37">
+                  <span className="cta-band-section5-text39">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle_NRYt8g'),
@@ -50,7 +50,7 @@ const CtaBandSection5 = (props) => {
                   <span>
                     {props.text ?? (
                       <Fragment>
-                        <span className="cta-band-section5-text39">
+                        <span className="cta-band-section5-text37">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_dtJb5H'),
@@ -94,6 +94,7 @@ const CtaBandSection5 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           heroTitle={
             <Fragment>
               <span className="cta-band-section5-text13">
@@ -161,7 +162,6 @@ const CtaBandSection5 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhyExistSection4>
         <WhatIsSection4
           text={
@@ -252,6 +252,7 @@ const CtaBandSection5 = (props) => {
               </span>
             </Fragment>
           }
+          locale={props?.locale ?? ''}
           specLabel={
             <Fragment>
               <span className="cta-band-section5-text27">
@@ -363,7 +364,6 @@ const CtaBandSection5 = (props) => {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
         ></WhatIsSection4>
       </section>
       <style jsx>
@@ -465,16 +465,16 @@ const CtaBandSection5 = (props) => {
 }
 
 CtaBandSection5.defaultProps = {
-  sectionTitle: undefined,
-  text1: undefined,
   text: undefined,
+  text1: undefined,
+  sectionTitle: undefined,
   sectionContent: undefined,
 }
 
 CtaBandSection5.propTypes = {
-  sectionTitle: PropTypes.element,
-  text1: PropTypes.element,
   text: PropTypes.element,
+  text1: PropTypes.element,
+  sectionTitle: PropTypes.element,
   sectionContent: PropTypes.element,
 }
 

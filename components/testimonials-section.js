@@ -290,13 +290,13 @@ TestimonialsSection.defaultProps = {
   sectionContent1: undefined,
   authorRole1: undefined,
   authorName2: undefined,
+  rootClassName: '',
   sectionContent2: undefined,
   authorName: undefined,
   sectionTitle: undefined,
   authorName1: undefined,
   sectionContent: undefined,
   authorRole: undefined,
-  rootClassName: '',
 }
 
 TestimonialsSection.propTypes = {
@@ -304,13 +304,13 @@ TestimonialsSection.propTypes = {
   sectionContent1: PropTypes.element,
   authorRole1: PropTypes.element,
   authorName2: PropTypes.element,
+  rootClassName: PropTypes.string,
   sectionContent2: PropTypes.element,
   authorName: PropTypes.element,
   sectionTitle: PropTypes.element,
   authorName1: PropTypes.element,
   sectionContent: PropTypes.element,
   authorRole: PropTypes.element,
-  rootClassName: PropTypes.string,
 }
 
 export default TestimonialsSection
