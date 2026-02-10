@@ -147,7 +147,7 @@ const Home11 = (props) => {
                       }),
                       []
                     )}
-                    initialData={props.javascript_PEC_data_data_ga12tITzf}
+                    initialData={props.javascript_PEC_data_data_g6ctNEAeX}
                     persistDataDuringLoading={true}
                     fetchData={useCallback(
                       (params) =>
@@ -806,86 +806,9 @@ const Home11 = (props) => {
             </div>
           </section>
           <CtaSection
-            sectionTitle={
-              <Fragment>
-                <span className="home11-text46">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_DiZTH2'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionSubtitle={
-              <Fragment>
-                <span className="home11-text47">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_7Jnhqi'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionTitle1={
-              <Fragment>
-                <span className="home11-text48">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_z3fp9V'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionTitle2={
-              <Fragment>
-                <span className="home11-text49">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_wZ-01a'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionContent={
-              <Fragment>
-                <span className="home11-text50">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_jf9pu6'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            formDisclaimer={
-              <Fragment>
-                <span className="home11-text51">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_s13x1A'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            text={
-              <Fragment>
-                <span className="home11-text52">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_RYBA1E'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             btn={
               <Fragment>
-                <span className="home11-text53">
+                <span className="home11-text46">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_-Efg_9'),
@@ -894,9 +817,20 @@ const Home11 = (props) => {
                 </span>
               </Fragment>
             }
+            text={
+              <Fragment>
+                <span className="home11-text47">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_RYBA1E'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
             text1={
               <Fragment>
-                <span className="home11-text54">
+                <span className="home11-text48">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_WiLaL1'),
@@ -907,7 +841,7 @@ const Home11 = (props) => {
             }
             text2={
               <Fragment>
-                <span className="home11-text55">
+                <span className="home11-text49">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_inIZ9V'),
@@ -918,7 +852,7 @@ const Home11 = (props) => {
             }
             text3={
               <Fragment>
-                <span className="home11-text56">
+                <span className="home11-text50">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_WHZWjf'),
@@ -929,10 +863,76 @@ const Home11 = (props) => {
             }
             text4={
               <Fragment>
-                <span className="home11-text57">
+                <span className="home11-text51">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_EL5EpQ'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle={
+              <Fragment>
+                <span className="home11-text52">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_DiZTH2'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle1={
+              <Fragment>
+                <span className="home11-text53">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_z3fp9V'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle2={
+              <Fragment>
+                <span className="home11-text54">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_wZ-01a'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            formDisclaimer={
+              <Fragment>
+                <span className="home11-text55">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_s13x1A'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionContent={
+              <Fragment>
+                <span className="home11-text56">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_jf9pu6'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionSubtitle={
+              <Fragment>
+                <span className="home11-text57">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_7Jnhqi'),
                     }}
                   ></span>
                 </span>
@@ -1234,14 +1234,14 @@ export async function getStaticProps(context) {
   try {
     const messages = (await import('/locales/' + context.locale + '.json'))
       .default
-    const [javascript_PEC_data_data_ga12tITzf] = await Promise.all([
+    const [javascript_PEC_data_data_g6ctNEAeX] = await Promise.all([
       javascriptData5ef2eac3
         .fetchData({
           limit: 20,
         })
         .catch((error) => {
           console.error(
-            'Error fetching javascript_PEC_data_data_ga12tITzf:',
+            'Error fetching javascript_PEC_data_data_g6ctNEAeX:',
             error
           )
           return []
@@ -1250,7 +1250,7 @@ export async function getStaticProps(context) {
     return {
       props: {
         messages,
-        javascript_PEC_data_data_ga12tITzf: javascript_PEC_data_data_ga12tITzf,
+        javascript_PEC_data_data_g6ctNEAeX: javascript_PEC_data_data_g6ctNEAeX,
       },
       revalidate: 1,
     }

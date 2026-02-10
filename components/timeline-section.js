@@ -7,7 +7,9 @@ const TimelineSection = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <section className="timeline-section-thq-timeline-section-elm timeline-section">
+      <section
+        className={`timeline-section-thq-timeline-section-elm timeline-section ${props.rootClassName} `}
+      >
         <div className="timeline-container">
           <h2 className="section-title centered">
             {props.sectionTitle ?? (
@@ -49,7 +51,7 @@ const TimelineSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle ?? (
                       <Fragment>
-                        <span className="timeline-section-text12">
+                        <span className="timeline-section-text19">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_pb491C'),
@@ -62,7 +64,7 @@ const TimelineSection = (props) => {
                   <p className="section-content">
                     {props.sectionContent ?? (
                       <Fragment>
-                        <span className="timeline-section-text13">
+                        <span className="timeline-section-text15">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionContent_M3WZ4_'),
@@ -83,7 +85,7 @@ const TimelineSection = (props) => {
                   <span className="date-stamp">
                     {props.dateStamp1 ?? (
                       <Fragment>
-                        <span className="timeline-section-text14">
+                        <span className="timeline-section-text20">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('DateStamp_y6TSXI'),
@@ -96,7 +98,7 @@ const TimelineSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle1 ?? (
                       <Fragment>
-                        <span className="timeline-section-text15">
+                        <span className="timeline-section-text13">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_puAY4u'),
@@ -109,7 +111,7 @@ const TimelineSection = (props) => {
                   <p className="section-content">
                     {props.sectionContent1 ?? (
                       <Fragment>
-                        <span className="timeline-section-text16">
+                        <span className="timeline-section-text22">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionContent_gvzvOz'),
@@ -130,7 +132,7 @@ const TimelineSection = (props) => {
                   <span className="date-stamp">
                     {props.dateStamp2 ?? (
                       <Fragment>
-                        <span className="timeline-section-text17">
+                        <span className="timeline-section-text14">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('DateStamp_Q_4wsb'),
@@ -156,7 +158,7 @@ const TimelineSection = (props) => {
                   <p className="section-content">
                     {props.sectionContent2 ?? (
                       <Fragment>
-                        <span className="timeline-section-text19">
+                        <span className="timeline-section-text16">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionContent_XDmj-8'),
@@ -177,7 +179,7 @@ const TimelineSection = (props) => {
                   <span className="date-stamp">
                     {props.dateStamp3 ?? (
                       <Fragment>
-                        <span className="timeline-section-text20">
+                        <span className="timeline-section-text12">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('DateStamp_YuW0dZ'),
@@ -190,7 +192,7 @@ const TimelineSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle3 ?? (
                       <Fragment>
-                        <span className="timeline-section-text21">
+                        <span className="timeline-section-text17">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_Ao4_Wp'),
@@ -203,7 +205,7 @@ const TimelineSection = (props) => {
                   <p className="section-content">
                     {props.sectionContent3 ?? (
                       <Fragment>
-                        <span className="timeline-section-text22">
+                        <span className="timeline-section-text21">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionContent_FHSnAj'),
@@ -272,33 +274,35 @@ const TimelineSection = (props) => {
 TimelineSection.defaultProps = {
   sectionTitle: undefined,
   dateStamp: undefined,
-  sectionSubtitle: undefined,
-  sectionContent: undefined,
-  dateStamp1: undefined,
-  sectionSubtitle1: undefined,
-  sectionContent1: undefined,
-  dateStamp2: undefined,
-  sectionSubtitle2: undefined,
-  sectionContent2: undefined,
   dateStamp3: undefined,
+  sectionSubtitle1: undefined,
+  dateStamp2: undefined,
+  sectionContent: undefined,
+  sectionContent2: undefined,
   sectionSubtitle3: undefined,
+  sectionSubtitle2: undefined,
+  sectionSubtitle: undefined,
+  dateStamp1: undefined,
   sectionContent3: undefined,
+  sectionContent1: undefined,
+  rootClassName: '',
 }
 
 TimelineSection.propTypes = {
   sectionTitle: PropTypes.element,
   dateStamp: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  sectionContent: PropTypes.element,
-  dateStamp1: PropTypes.element,
-  sectionSubtitle1: PropTypes.element,
-  sectionContent1: PropTypes.element,
-  dateStamp2: PropTypes.element,
-  sectionSubtitle2: PropTypes.element,
-  sectionContent2: PropTypes.element,
   dateStamp3: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
+  dateStamp2: PropTypes.element,
+  sectionContent: PropTypes.element,
+  sectionContent2: PropTypes.element,
   sectionSubtitle3: PropTypes.element,
+  sectionSubtitle2: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  dateStamp1: PropTypes.element,
   sectionContent3: PropTypes.element,
+  sectionContent1: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default TimelineSection

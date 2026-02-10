@@ -21,7 +21,7 @@ const StatsSection2 = (props) => {
               <h2 className="section-title">
                 {props.sectionTitle ?? (
                   <Fragment>
-                    <span className="stats-section2-text15">
+                    <span className="stats-section2-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_41JvtA'),
@@ -62,7 +62,7 @@ const StatsSection2 = (props) => {
               <p className="section-subtitle">
                 {props.sectionSubtitle ?? (
                   <Fragment>
-                    <span className="stats-section2-text17">
+                    <span className="stats-section2-text19">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionSubtitle_tFSLAw'),
@@ -80,7 +80,7 @@ const StatsSection2 = (props) => {
                 <span>
                   {props.text1 ?? (
                     <Fragment>
-                      <span className="stats-section2-text19">
+                      <span className="stats-section2-text22">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_RdeJCd'),
@@ -95,7 +95,7 @@ const StatsSection2 = (props) => {
                 <span>
                   {props.text2 ?? (
                     <Fragment>
-                      <span className="stats-section2-text20">
+                      <span className="stats-section2-text21">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_uLLiK1'),
@@ -114,7 +114,7 @@ const StatsSection2 = (props) => {
                 <span>
                   {props.text3 ?? (
                     <Fragment>
-                      <span className="stats-section2-text21">
+                      <span className="stats-section2-text15">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_U0wKFX'),
@@ -129,7 +129,7 @@ const StatsSection2 = (props) => {
                 <span>
                   {props.text4 ?? (
                     <Fragment>
-                      <span className="stats-section2-text22">
+                      <span className="stats-section2-text17">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_FCYumu'),
@@ -180,30 +180,30 @@ const StatsSection2 = (props) => {
 }
 
 StatsSection2.defaultProps = {
+  text3: undefined,
+  sectionContent: undefined,
+  statsImgBgAlt: 'Data background',
+  text4: undefined,
   statsImgBgSrc:
     'https://images.pexels.com/photos/27141307/pexels-photo-27141307.jpeg?auto=compress&cs=tinysrgb&w=1500',
-  statsImgBgAlt: 'Data background',
-  sectionTitle: undefined,
-  sectionContent: undefined,
-  sectionSubtitle: undefined,
   text: undefined,
-  text1: undefined,
+  sectionSubtitle: undefined,
+  sectionTitle: undefined,
   text2: undefined,
-  text3: undefined,
-  text4: undefined,
+  text1: undefined,
 }
 
 StatsSection2.propTypes = {
-  statsImgBgSrc: PropTypes.string,
-  statsImgBgAlt: PropTypes.string,
-  sectionTitle: PropTypes.element,
-  sectionContent: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  text: PropTypes.element,
-  text1: PropTypes.element,
-  text2: PropTypes.element,
   text3: PropTypes.element,
+  sectionContent: PropTypes.element,
+  statsImgBgAlt: PropTypes.string,
   text4: PropTypes.element,
+  statsImgBgSrc: PropTypes.string,
+  text: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  sectionTitle: PropTypes.element,
+  text2: PropTypes.element,
+  text1: PropTypes.element,
 }
 
 export default StatsSection2

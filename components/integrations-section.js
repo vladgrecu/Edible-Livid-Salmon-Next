@@ -13,7 +13,7 @@ const IntegrationsSection = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="integrations-section-text14">
+                  <span className="integrations-section-text25">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle_MEaMCR'),
@@ -26,7 +26,7 @@ const IntegrationsSection = (props) => {
             <p className="section-subtitle">
               {props.sectionSubtitle ?? (
                 <Fragment>
-                  <span className="integrations-section-text15">
+                  <span className="integrations-section-text22">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionSubtitle_ihZ1uw'),
@@ -43,7 +43,7 @@ const IntegrationsSection = (props) => {
                 <h3 className="section-title">
                   {props.sectionTitle2 ?? (
                     <Fragment>
-                      <span className="integrations-section-text18">
+                      <span className="integrations-section-text21">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionTitle_yyVc8x'),
@@ -56,7 +56,7 @@ const IntegrationsSection = (props) => {
                 <p className="section-content">
                   {props.sectionContent1 ?? (
                     <Fragment>
-                      <span className="integrations-section-text19">
+                      <span className="integrations-section-text24">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_YmgDJV'),
@@ -70,7 +70,7 @@ const IntegrationsSection = (props) => {
                   <span className="int-tag">
                     {props.intTag ?? (
                       <Fragment>
-                        <span className="integrations-section-text20">
+                        <span className="integrations-section-text23">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('IntTag_8nGW_Q'),
@@ -83,7 +83,7 @@ const IntegrationsSection = (props) => {
                   <span className="int-tag">
                     {props.intTag1 ?? (
                       <Fragment>
-                        <span className="integrations-section-text21">
+                        <span className="integrations-section-text17">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('IntTag_ASgfOj'),
@@ -96,7 +96,7 @@ const IntegrationsSection = (props) => {
                   <span className="int-tag">
                     {props.intTag2 ?? (
                       <Fragment>
-                        <span className="integrations-section-text22">
+                        <span className="integrations-section-text15">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('IntTag_mNOXqy'),
@@ -115,7 +115,7 @@ const IntegrationsSection = (props) => {
                   <span>
                     {props.text ?? (
                       <Fragment>
-                        <span className="integrations-section-text23">
+                        <span className="integrations-section-text20">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_tzvRf0'),
@@ -130,7 +130,7 @@ const IntegrationsSection = (props) => {
                   <span>
                     {props.text1 ?? (
                       <Fragment>
-                        <span className="integrations-section-text24">
+                        <span className="integrations-section-text18">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_huv5sx'),
@@ -145,7 +145,7 @@ const IntegrationsSection = (props) => {
                   <span>
                     {props.text2 ?? (
                       <Fragment>
-                        <span className="integrations-section-text25">
+                        <span className="integrations-section-text16">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_hAGzcP'),
@@ -160,7 +160,7 @@ const IntegrationsSection = (props) => {
                   <span>
                     {props.text3 ?? (
                       <Fragment>
-                        <span className="integrations-section-text26">
+                        <span className="integrations-section-text19">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_tLXqe3'),
@@ -177,7 +177,7 @@ const IntegrationsSection = (props) => {
               <h4 className="section-title">
                 {props.sectionTitle1 ?? (
                   <Fragment>
-                    <span className="integrations-section-text16">
+                    <span className="integrations-section-text14">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_5KZn9e'),
@@ -190,7 +190,7 @@ const IntegrationsSection = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="integrations-section-text17">
+                    <span className="integrations-section-text26">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_ref19h'),
@@ -255,35 +255,35 @@ const IntegrationsSection = (props) => {
 }
 
 IntegrationsSection.defaultProps = {
-  sectionTitle: undefined,
-  sectionSubtitle: undefined,
   sectionTitle1: undefined,
-  sectionContent: undefined,
-  sectionTitle2: undefined,
-  sectionContent1: undefined,
-  intTag: undefined,
-  intTag1: undefined,
   intTag2: undefined,
-  text: undefined,
-  text1: undefined,
   text2: undefined,
+  intTag1: undefined,
+  text1: undefined,
   text3: undefined,
+  text: undefined,
+  sectionTitle2: undefined,
+  sectionSubtitle: undefined,
+  intTag: undefined,
+  sectionContent1: undefined,
+  sectionTitle: undefined,
+  sectionContent: undefined,
 }
 
 IntegrationsSection.propTypes = {
-  sectionTitle: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
   sectionTitle1: PropTypes.element,
-  sectionContent: PropTypes.element,
-  sectionTitle2: PropTypes.element,
-  sectionContent1: PropTypes.element,
-  intTag: PropTypes.element,
-  intTag1: PropTypes.element,
   intTag2: PropTypes.element,
-  text: PropTypes.element,
-  text1: PropTypes.element,
   text2: PropTypes.element,
+  intTag1: PropTypes.element,
+  text1: PropTypes.element,
   text3: PropTypes.element,
+  text: PropTypes.element,
+  sectionTitle2: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  intTag: PropTypes.element,
+  sectionContent1: PropTypes.element,
+  sectionTitle: PropTypes.element,
+  sectionContent: PropTypes.element,
 }
 
 export default IntegrationsSection

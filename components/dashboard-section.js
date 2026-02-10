@@ -27,7 +27,7 @@ const DashboardSection = (props) => {
               <span className="dashboard-section-thq-tab-desc-elm1">
                 {props.tabDesc ?? (
                   <Fragment>
-                    <span className="dashboard-section-text2">
+                    <span className="dashboard-section-text6">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('TabDesc_jPZDgx'),
@@ -42,7 +42,7 @@ const DashboardSection = (props) => {
               <span className="dashboard-section-thq-tab-label-elm2">
                 {props.tabLabel1 ?? (
                   <Fragment>
-                    <span className="dashboard-section-text3">
+                    <span className="dashboard-section-text2">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('TabLabel_u37ymP'),
@@ -55,7 +55,7 @@ const DashboardSection = (props) => {
               <span className="dashboard-section-thq-tab-desc-elm2">
                 {props.tabDesc1 ?? (
                   <Fragment>
-                    <span className="dashboard-section-text4">
+                    <span className="dashboard-section-text5">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('TabDesc_GHykMD'),
@@ -70,7 +70,7 @@ const DashboardSection = (props) => {
               <span className="dashboard-section-thq-tab-label-elm3">
                 {props.tabLabel2 ?? (
                   <Fragment>
-                    <span className="dashboard-section-text5">
+                    <span className="dashboard-section-text3">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('TabLabel_7TYeIx'),
@@ -83,7 +83,7 @@ const DashboardSection = (props) => {
               <span className="dashboard-section-thq-tab-desc-elm3">
                 {props.tabDesc2 ?? (
                   <Fragment>
-                    <span className="dashboard-section-text6">
+                    <span className="dashboard-section-text4">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('TabDesc_kiCVit'),
@@ -187,35 +187,35 @@ const DashboardSection = (props) => {
 
 DashboardSection.defaultProps = {
   tabLabel: undefined,
-  tabDesc: undefined,
   tabLabel1: undefined,
-  tabDesc1: undefined,
-  tabLabel2: undefined,
-  tabDesc2: undefined,
-  dashboardImgSrc:
-    'https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&w=1500',
   dashboardImgAlt: 'Intake Interface',
+  dashboardImgAlt1: 'Monitoring Interface',
+  tabLabel2: undefined,
+  dashboardImgAlt2: 'Reporting Interface',
+  tabDesc2: undefined,
+  tabDesc1: undefined,
   dashboardImgSrc1:
     'https://images.pexels.com/photos/27141316/pexels-photo-27141316.jpeg?auto=compress&cs=tinysrgb&w=1500',
-  dashboardImgAlt1: 'Monitoring Interface',
   dashboardImgSrc2:
     'https://images.pexels.com/photos/17279853/pexels-photo-17279853.jpeg?auto=compress&cs=tinysrgb&w=1500',
-  dashboardImgAlt2: 'Reporting Interface',
+  tabDesc: undefined,
+  dashboardImgSrc:
+    'https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&w=1500',
 }
 
 DashboardSection.propTypes = {
   tabLabel: PropTypes.element,
-  tabDesc: PropTypes.element,
   tabLabel1: PropTypes.element,
-  tabDesc1: PropTypes.element,
-  tabLabel2: PropTypes.element,
-  tabDesc2: PropTypes.element,
-  dashboardImgSrc: PropTypes.string,
   dashboardImgAlt: PropTypes.string,
-  dashboardImgSrc1: PropTypes.string,
   dashboardImgAlt1: PropTypes.string,
-  dashboardImgSrc2: PropTypes.string,
+  tabLabel2: PropTypes.element,
   dashboardImgAlt2: PropTypes.string,
+  tabDesc2: PropTypes.element,
+  tabDesc1: PropTypes.element,
+  dashboardImgSrc1: PropTypes.string,
+  dashboardImgSrc2: PropTypes.string,
+  tabDesc: PropTypes.element,
+  dashboardImgSrc: PropTypes.string,
 }
 
 export default DashboardSection

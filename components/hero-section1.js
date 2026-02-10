@@ -34,7 +34,7 @@ const HeroSection1 = (props) => {
               <h1 className="home-hero-title hero-title">
                 {props.heroTitle ?? (
                   <Fragment>
-                    <span className="hero-section1-text4">
+                    <span className="hero-section1-text7">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('HeroTitle_FO4XYj'),
@@ -47,7 +47,7 @@ const HeroSection1 = (props) => {
               <p className="hero-subtitle home-hero-subtitle">
                 {props.heroSubtitle ?? (
                   <Fragment>
-                    <span className="hero-section1-text5">
+                    <span className="hero-section1-text8">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('HeroSubtitle_1cghCK'),
@@ -63,7 +63,7 @@ const HeroSection1 = (props) => {
                     <span>
                       {props.text ?? (
                         <Fragment>
-                          <span className="hero-section1-text6">
+                          <span className="hero-section1-text5">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_dxwAr3'),
@@ -80,7 +80,7 @@ const HeroSection1 = (props) => {
                     <span>
                       {props.text1 ?? (
                         <Fragment>
-                          <span className="hero-section1-text7">
+                          <span className="hero-section1-text4">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_zCThZW'),
@@ -125,7 +125,7 @@ const HeroSection1 = (props) => {
                             <h1>
                               {props.heading ?? (
                                 <Fragment>
-                                  <span className="hero-section1-text8">
+                                  <span className="hero-section1-text6">
                                     <span
                                       dangerouslySetInnerHTML={{
                                         __html: translate.raw('text_CDpfmR'),
@@ -189,26 +189,26 @@ const HeroSection1 = (props) => {
 }
 
 HeroSection1.defaultProps = {
-  heroBgVideoSrc:
-    'https://videos.pexels.com/video-files/34645102/14683780_640_360_30fps.mp4',
+  heroPreviewImgSrc: '/screenshot%202026-02-04%20at%2013.45.15-200h.png',
+  text1: undefined,
+  text: undefined,
+  heading: undefined,
   heroTitle: undefined,
   heroSubtitle: undefined,
-  heroPreviewImgSrc: '/screenshot%202026-02-04%20at%2013.45.15-200h.png',
+  heroBgVideoSrc:
+    'https://videos.pexels.com/video-files/34645102/14683780_640_360_30fps.mp4',
   heroPreviewImgAlt: 'FlowVista Dashboard Interface',
-  text: undefined,
-  text1: undefined,
-  heading: undefined,
 }
 
 HeroSection1.propTypes = {
-  heroBgVideoSrc: PropTypes.string,
+  heroPreviewImgSrc: PropTypes.string,
+  text1: PropTypes.element,
+  text: PropTypes.element,
+  heading: PropTypes.element,
   heroTitle: PropTypes.element,
   heroSubtitle: PropTypes.element,
-  heroPreviewImgSrc: PropTypes.string,
+  heroBgVideoSrc: PropTypes.string,
   heroPreviewImgAlt: PropTypes.string,
-  text: PropTypes.element,
-  text1: PropTypes.element,
-  heading: PropTypes.element,
 }
 
 export default HeroSection1

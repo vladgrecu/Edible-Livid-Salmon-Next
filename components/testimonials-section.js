@@ -7,12 +7,14 @@ const TestimonialsSection = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <section className="testimonials-section-thq-testimonials-section-elm testimonials-section">
+      <section
+        className={`testimonials-section-thq-testimonials-section-elm testimonials-section ${props.rootClassName} `}
+      >
         <div className="testimonials-carousel-wrapper">
           <h2 className="section-title">
             {props.sectionTitle ?? (
               <Fragment>
-                <span className="testimonials-section-text10">
+                <span className="testimonials-section-text16">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('SectionTitle_Fzp7UQ'),
@@ -44,7 +46,7 @@ const TestimonialsSection = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="testimonials-section-text11">
+                    <span className="testimonials-section-text18">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_ylzUOB'),
@@ -58,7 +60,7 @@ const TestimonialsSection = (props) => {
                 <span className="author-name">
                   {props.authorName ?? (
                     <Fragment>
-                      <span className="testimonials-section-text14">
+                      <span className="testimonials-section-text15">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_Lg7auJ'),
@@ -71,7 +73,7 @@ const TestimonialsSection = (props) => {
                 <span className="author-role">
                   {props.authorRole ?? (
                     <Fragment>
-                      <span className="testimonials-section-text15">
+                      <span className="testimonials-section-text19">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_tY5dmt'),
@@ -104,7 +106,7 @@ const TestimonialsSection = (props) => {
               <p className="section-content">
                 {props.sectionContent1 ?? (
                   <Fragment>
-                    <span className="testimonials-section-text12">
+                    <span className="testimonials-section-text11">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_6sWZfy'),
@@ -118,7 +120,7 @@ const TestimonialsSection = (props) => {
                 <span className="author-name">
                   {props.authorName1 ?? (
                     <Fragment>
-                      <span className="testimonials-section-text16">
+                      <span className="testimonials-section-text17">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_cSDYaT'),
@@ -131,7 +133,7 @@ const TestimonialsSection = (props) => {
                 <span className="author-role">
                   {props.authorRole1 ?? (
                     <Fragment>
-                      <span className="testimonials-section-text17">
+                      <span className="testimonials-section-text12">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_E1OU0z'),
@@ -164,7 +166,7 @@ const TestimonialsSection = (props) => {
               <p className="section-content">
                 {props.sectionContent2 ?? (
                   <Fragment>
-                    <span className="testimonials-section-text13">
+                    <span className="testimonials-section-text14">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_uS3Zxc'),
@@ -178,7 +180,7 @@ const TestimonialsSection = (props) => {
                 <span className="author-name">
                   {props.authorName2 ?? (
                     <Fragment>
-                      <span className="testimonials-section-text18">
+                      <span className="testimonials-section-text13">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorName_Lz9oEf'),
@@ -191,7 +193,7 @@ const TestimonialsSection = (props) => {
                 <span className="author-role">
                   {props.authorRole2 ?? (
                     <Fragment>
-                      <span className="testimonials-section-text19">
+                      <span className="testimonials-section-text10">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('AuthorRole_4hsanO'),
@@ -284,29 +286,31 @@ const TestimonialsSection = (props) => {
 }
 
 TestimonialsSection.defaultProps = {
-  sectionTitle: undefined,
-  sectionContent: undefined,
+  authorRole2: undefined,
   sectionContent1: undefined,
-  sectionContent2: undefined,
-  authorName: undefined,
-  authorRole: undefined,
-  authorName1: undefined,
   authorRole1: undefined,
   authorName2: undefined,
-  authorRole2: undefined,
+  sectionContent2: undefined,
+  authorName: undefined,
+  sectionTitle: undefined,
+  authorName1: undefined,
+  sectionContent: undefined,
+  authorRole: undefined,
+  rootClassName: '',
 }
 
 TestimonialsSection.propTypes = {
-  sectionTitle: PropTypes.element,
-  sectionContent: PropTypes.element,
+  authorRole2: PropTypes.element,
   sectionContent1: PropTypes.element,
-  sectionContent2: PropTypes.element,
-  authorName: PropTypes.element,
-  authorRole: PropTypes.element,
-  authorName1: PropTypes.element,
   authorRole1: PropTypes.element,
   authorName2: PropTypes.element,
-  authorRole2: PropTypes.element,
+  sectionContent2: PropTypes.element,
+  authorName: PropTypes.element,
+  sectionTitle: PropTypes.element,
+  authorName1: PropTypes.element,
+  sectionContent: PropTypes.element,
+  authorRole: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default TestimonialsSection

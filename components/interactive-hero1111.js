@@ -1,13 +1,16 @@
 import React from 'react'
 
 import Script from 'dangerous-html/react'
+import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const InteractiveHero1111 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="interactive-hero1111-container1">
+      <div
+        className={`interactive-hero1111-container1 ${props.rootClassName} `}
+      >
         <div className="interactive-hero1111-container2">
           <div className="interactive-hero1111-container3">
             <Script
@@ -389,6 +392,14 @@ const InteractiveHero1111 = (props) => {
       </style>
     </>
   )
+}
+
+InteractiveHero1111.defaultProps = {
+  rootClassName: '',
+}
+
+InteractiveHero1111.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default InteractiveHero1111

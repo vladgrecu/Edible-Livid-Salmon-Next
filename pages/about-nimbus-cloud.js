@@ -69,42 +69,9 @@ section {
           </div>
         </div>
         <HeroSection
-          heroEyebrow={
-            <Fragment>
-              <span className="about-nimbus-cloud-text100">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_dvPYxq'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heroTitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text101">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_utO9DI'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heroSubtitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text102">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ndbPrA'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text={
             <Fragment>
-              <span className="about-nimbus-cloud-text103">
+              <span className="about-nimbus-cloud-text100">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CLykCV'),
@@ -115,7 +82,7 @@ section {
           }
           text1={
             <Fragment>
-              <span className="about-nimbus-cloud-text104">
+              <span className="about-nimbus-cloud-text101">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__ex4IQ'),
@@ -126,7 +93,7 @@ section {
           }
           text2={
             <Fragment>
-              <span className="about-nimbus-cloud-text105">
+              <span className="about-nimbus-cloud-text102">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FirOKL'),
@@ -135,20 +102,9 @@ section {
               </span>
             </Fragment>
           }
-          consoleTitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text106">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_nLIq7I'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text3={
             <Fragment>
-              <span className="about-nimbus-cloud-text107">
+              <span className="about-nimbus-cloud-text103">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_36myNu'),
@@ -159,7 +115,7 @@ section {
           }
           text4={
             <Fragment>
-              <span className="about-nimbus-cloud-text108">
+              <span className="about-nimbus-cloud-text104">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__yTJf8'),
@@ -170,7 +126,7 @@ section {
           }
           text5={
             <Fragment>
-              <span className="about-nimbus-cloud-text109">
+              <span className="about-nimbus-cloud-text105">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Oe7R_x'),
@@ -181,7 +137,7 @@ section {
           }
           text6={
             <Fragment>
-              <span className="about-nimbus-cloud-text110">
+              <span className="about-nimbus-cloud-text106">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_8LLdGd'),
@@ -192,7 +148,7 @@ section {
           }
           text7={
             <Fragment>
-              <span className="about-nimbus-cloud-text111">
+              <span className="about-nimbus-cloud-text107">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_YRYmni'),
@@ -203,7 +159,7 @@ section {
           }
           text8={
             <Fragment>
-              <span className="about-nimbus-cloud-text112">
+              <span className="about-nimbus-cloud-text108">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_g-4C38'),
@@ -214,7 +170,7 @@ section {
           }
           text9={
             <Fragment>
-              <span className="about-nimbus-cloud-text113">
+              <span className="about-nimbus-cloud-text109">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_s-HEQI'),
@@ -225,10 +181,54 @@ section {
           }
           text10={
             <Fragment>
-              <span className="about-nimbus-cloud-text114">
+              <span className="about-nimbus-cloud-text110">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_j3Kb5R'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          heroTitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text111">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_utO9DI'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          heroEyebrow={
+            <Fragment>
+              <span className="about-nimbus-cloud-text112">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_dvPYxq'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          consoleTitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text113">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_nLIq7I'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          heroSubtitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text114">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ndbPrA'),
                   }}
                 ></span>
               </span>
@@ -259,20 +259,9 @@ section {
               </span>
             </Fragment>
           }
-          sectionSubtitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text117">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_kXp2D1'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionContent1={
             <Fragment>
-              <span className="about-nimbus-cloud-text118">
+              <span className="about-nimbus-cloud-text117">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Ih5HoR'),
@@ -281,20 +270,9 @@ section {
               </span>
             </Fragment>
           }
-          sectionSubtitle1={
-            <Fragment>
-              <span className="about-nimbus-cloud-text119">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_CB4Iy9'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionContent2={
             <Fragment>
-              <span className="about-nimbus-cloud-text120">
+              <span className="about-nimbus-cloud-text118">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_4wen8p'),
@@ -303,20 +281,9 @@ section {
               </span>
             </Fragment>
           }
-          sectionSubtitle2={
-            <Fragment>
-              <span className="about-nimbus-cloud-text121">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_S2FJ4v'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionContent3={
             <Fragment>
-              <span className="about-nimbus-cloud-text122">
+              <span className="about-nimbus-cloud-text119">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_binrLY'),
@@ -325,37 +292,12 @@ section {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
-        ></MissionSection>
-        <WhatIsSection
-          sectionTitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text123">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_dUTjAE'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionContent={
-            <Fragment>
-              <span className="about-nimbus-cloud-text124">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_V1scpG'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionSubtitle={
             <Fragment>
-              <span className="about-nimbus-cloud-text125">
+              <span className="about-nimbus-cloud-text120">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_5OIBJv'),
+                    __html: translate.raw('text_kXp2D1'),
                   }}
                 ></span>
               </span>
@@ -363,10 +305,10 @@ section {
           }
           sectionSubtitle1={
             <Fragment>
-              <span className="about-nimbus-cloud-text126">
+              <span className="about-nimbus-cloud-text121">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IZfQCE'),
+                    __html: translate.raw('text_CB4Iy9'),
                   }}
                 ></span>
               </span>
@@ -374,73 +316,21 @@ section {
           }
           sectionSubtitle2={
             <Fragment>
-              <span className="about-nimbus-cloud-text127">
+              <span className="about-nimbus-cloud-text122">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HJkYfd'),
+                    __html: translate.raw('text_S2FJ4v'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          sectionSubtitle3={
-            <Fragment>
-              <span className="about-nimbus-cloud-text128">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_V_kE1-'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          specLabel={
-            <Fragment>
-              <span className="about-nimbus-cloud-text129">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vf-Ke9'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          specLabel1={
-            <Fragment>
-              <span className="about-nimbus-cloud-text130">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_2dbqus'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          specLabel2={
-            <Fragment>
-              <span className="about-nimbus-cloud-text131">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_fNSSaf'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          specLabel3={
-            <Fragment>
-              <span className="about-nimbus-cloud-text132">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HQtjhK'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
+          locale={props?.locale ?? ''}
+        ></MissionSection>
+        <WhatIsSection
           text={
             <Fragment>
-              <span className="about-nimbus-cloud-text133">
+              <span className="about-nimbus-cloud-text123">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_E7CSqd'),
@@ -451,7 +341,7 @@ section {
           }
           text1={
             <Fragment>
-              <span className="about-nimbus-cloud-text134">
+              <span className="about-nimbus-cloud-text124">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_EVOYTf'),
@@ -462,7 +352,7 @@ section {
           }
           text2={
             <Fragment>
-              <span className="about-nimbus-cloud-text135">
+              <span className="about-nimbus-cloud-text125">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CrihNV'),
@@ -473,7 +363,7 @@ section {
           }
           text3={
             <Fragment>
-              <span className="about-nimbus-cloud-text136">
+              <span className="about-nimbus-cloud-text126">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__-8w87'),
@@ -484,7 +374,7 @@ section {
           }
           text4={
             <Fragment>
-              <span className="about-nimbus-cloud-text137">
+              <span className="about-nimbus-cloud-text127">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__kQUIi'),
@@ -495,7 +385,7 @@ section {
           }
           text5={
             <Fragment>
-              <span className="about-nimbus-cloud-text138">
+              <span className="about-nimbus-cloud-text128">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_d3DmYF'),
@@ -506,7 +396,7 @@ section {
           }
           text6={
             <Fragment>
-              <span className="about-nimbus-cloud-text139">
+              <span className="about-nimbus-cloud-text129">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CG5jrv'),
@@ -517,7 +407,7 @@ section {
           }
           text7={
             <Fragment>
-              <span className="about-nimbus-cloud-text140">
+              <span className="about-nimbus-cloud-text130">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_DEwP9q'),
@@ -526,67 +416,122 @@ section {
               </span>
             </Fragment>
           }
+          specLabel={
+            <Fragment>
+              <span className="about-nimbus-cloud-text131">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_vf-Ke9'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          specLabel1={
+            <Fragment>
+              <span className="about-nimbus-cloud-text132">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_2dbqus'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          specLabel2={
+            <Fragment>
+              <span className="about-nimbus-cloud-text133">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_fNSSaf'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          specLabel3={
+            <Fragment>
+              <span className="about-nimbus-cloud-text134">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_HQtjhK'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionTitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text135">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_dUTjAE'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionContent={
+            <Fragment>
+              <span className="about-nimbus-cloud-text136">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_V1scpG'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text137">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_5OIBJv'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle1={
+            <Fragment>
+              <span className="about-nimbus-cloud-text138">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_IZfQCE'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle2={
+            <Fragment>
+              <span className="about-nimbus-cloud-text139">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_HJkYfd'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle3={
+            <Fragment>
+              <span className="about-nimbus-cloud-text140">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_V_kE1-'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></WhatIsSection>
         <WhyExistSection
-          sectionContent={
-            <Fragment>
-              <span className="about-nimbus-cloud-text141">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JMLCvR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          closingStatement={
-            <Fragment>
-              <span className="about-nimbus-cloud-text142">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gvpzRo'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heroTitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text143">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_EG3kfH'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          plaqueStatement={
-            <Fragment>
-              <span className="about-nimbus-cloud-text144">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_pqWkIj'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          quoteMark={
-            <Fragment>
-              <span className="about-nimbus-cloud-text145">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_EIPUJo'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text={
             <Fragment>
-              <span className="about-nimbus-cloud-text146">
+              <span className="about-nimbus-cloud-text141">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_lmgl6U'),
@@ -595,12 +540,67 @@ section {
               </span>
             </Fragment>
           }
+          heroTitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text142">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_EG3kfH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          quoteMark={
+            <Fragment>
+              <span className="about-nimbus-cloud-text143">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_EIPUJo'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           quoteMark1={
+            <Fragment>
+              <span className="about-nimbus-cloud-text144">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FgCy0F'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionContent={
+            <Fragment>
+              <span className="about-nimbus-cloud-text145">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_JMLCvR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          plaqueStatement={
+            <Fragment>
+              <span className="about-nimbus-cloud-text146">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_pqWkIj'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          closingStatement={
             <Fragment>
               <span className="about-nimbus-cloud-text147">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FgCy0F'),
+                    __html: translate.raw('text_gvpzRo'),
                   }}
                 ></span>
               </span>
@@ -620,9 +620,20 @@ section {
               </span>
             </Fragment>
           }
-          sectionContent={
+          principleLabel={
             <Fragment>
               <span className="about-nimbus-cloud-text149">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_6OuRSs'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionContent={
+            <Fragment>
+              <span className="about-nimbus-cloud-text150">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Q-VM6N'),
@@ -631,9 +642,53 @@ section {
               </span>
             </Fragment>
           }
+          principleLabel1={
+            <Fragment>
+              <span className="about-nimbus-cloud-text151">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_94N52P'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          principleLabel2={
+            <Fragment>
+              <span className="about-nimbus-cloud-text152">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_lISI5v'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          principleLabel3={
+            <Fragment>
+              <span className="about-nimbus-cloud-text153">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_jNVoFV'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          principleLabel4={
+            <Fragment>
+              <span className="about-nimbus-cloud-text154">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_iXlL6n'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           sectionContent1={
             <Fragment>
-              <span className="about-nimbus-cloud-text150">
+              <span className="about-nimbus-cloud-text155">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_5EwD_M'),
@@ -644,7 +699,7 @@ section {
           }
           sectionContent2={
             <Fragment>
-              <span className="about-nimbus-cloud-text151">
+              <span className="about-nimbus-cloud-text156">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pmnr-l'),
@@ -655,7 +710,7 @@ section {
           }
           sectionContent3={
             <Fragment>
-              <span className="about-nimbus-cloud-text152">
+              <span className="about-nimbus-cloud-text157">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_zo6OL3'),
@@ -666,7 +721,7 @@ section {
           }
           sectionContent4={
             <Fragment>
-              <span className="about-nimbus-cloud-text153">
+              <span className="about-nimbus-cloud-text158">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_M84SMJ'),
@@ -675,20 +730,9 @@ section {
               </span>
             </Fragment>
           }
-          principleLabel={
-            <Fragment>
-              <span className="about-nimbus-cloud-text154">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6OuRSs'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionSubtitle={
             <Fragment>
-              <span className="about-nimbus-cloud-text155">
+              <span className="about-nimbus-cloud-text159">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_spBVKC'),
@@ -697,20 +741,9 @@ section {
               </span>
             </Fragment>
           }
-          principleLabel1={
-            <Fragment>
-              <span className="about-nimbus-cloud-text156">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_94N52P'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionSubtitle1={
             <Fragment>
-              <span className="about-nimbus-cloud-text157">
+              <span className="about-nimbus-cloud-text160">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GmcQUk'),
@@ -719,20 +752,9 @@ section {
               </span>
             </Fragment>
           }
-          principleLabel2={
-            <Fragment>
-              <span className="about-nimbus-cloud-text158">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lISI5v'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionSubtitle2={
             <Fragment>
-              <span className="about-nimbus-cloud-text159">
+              <span className="about-nimbus-cloud-text161">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_HbV-nj'),
@@ -741,34 +763,12 @@ section {
               </span>
             </Fragment>
           }
-          principleLabel3={
-            <Fragment>
-              <span className="about-nimbus-cloud-text160">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jNVoFV'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionSubtitle3={
-            <Fragment>
-              <span className="about-nimbus-cloud-text161">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_wsKTM-'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          principleLabel4={
             <Fragment>
               <span className="about-nimbus-cloud-text162">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_iXlL6n'),
+                    __html: translate.raw('text_wsKTM-'),
                   }}
                 ></span>
               </span>
@@ -788,20 +788,9 @@ section {
           locale={props?.locale ?? ''}
         ></PrinciplesSection>
         <TimelineSection
-          sectionTitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text164">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_q-P_M_'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           dateStamp={
             <Fragment>
-              <span className="about-nimbus-cloud-text165">
+              <span className="about-nimbus-cloud-text164">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Qn8rxV'),
@@ -810,31 +799,9 @@ section {
               </span>
             </Fragment>
           }
-          sectionSubtitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text166">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_eFDVqR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionContent={
-            <Fragment>
-              <span className="about-nimbus-cloud-text167">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_atcV1T'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           dateStamp1={
             <Fragment>
-              <span className="about-nimbus-cloud-text168">
+              <span className="about-nimbus-cloud-text165">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_hsQakb'),
@@ -843,12 +810,45 @@ section {
               </span>
             </Fragment>
           }
-          sectionSubtitle1={
+          dateStamp2={
+            <Fragment>
+              <span className="about-nimbus-cloud-text166">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_MqjxbB'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          dateStamp3={
+            <Fragment>
+              <span className="about-nimbus-cloud-text167">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_DXcBM_'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionTitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text168">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_q-P_M_'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionContent={
             <Fragment>
               <span className="about-nimbus-cloud-text169">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xHrQY9'),
+                    __html: translate.raw('text_atcV1T'),
                   }}
                 ></span>
               </span>
@@ -865,31 +865,9 @@ section {
               </span>
             </Fragment>
           }
-          dateStamp2={
-            <Fragment>
-              <span className="about-nimbus-cloud-text171">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_MqjxbB'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionSubtitle2={
-            <Fragment>
-              <span className="about-nimbus-cloud-text172">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_K5O56d'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionContent2={
             <Fragment>
-              <span className="about-nimbus-cloud-text173">
+              <span className="about-nimbus-cloud-text171">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_TD4lyw'),
@@ -898,31 +876,9 @@ section {
               </span>
             </Fragment>
           }
-          dateStamp3={
-            <Fragment>
-              <span className="about-nimbus-cloud-text174">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_DXcBM_'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionSubtitle3={
-            <Fragment>
-              <span className="about-nimbus-cloud-text175">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_pOWaO_'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           sectionContent3={
             <Fragment>
-              <span className="about-nimbus-cloud-text176">
+              <span className="about-nimbus-cloud-text172">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_c5MXis'),
@@ -931,34 +887,56 @@ section {
               </span>
             </Fragment>
           }
+          sectionSubtitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text173">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_eFDVqR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle1={
+            <Fragment>
+              <span className="about-nimbus-cloud-text174">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_xHrQY9'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle2={
+            <Fragment>
+              <span className="about-nimbus-cloud-text175">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_K5O56d'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle3={
+            <Fragment>
+              <span className="about-nimbus-cloud-text176">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_pOWaO_'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></TimelineSection>
         <TeamSection
-          sectionTitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text177">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jYnL69'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionContent={
-            <Fragment>
-              <span className="about-nimbus-cloud-text178">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vh9EN3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           chip={
             <Fragment>
-              <span className="about-nimbus-cloud-text179">
+              <span className="about-nimbus-cloud-text177">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_sN4AzN'),
@@ -969,7 +947,7 @@ section {
           }
           chip1={
             <Fragment>
-              <span className="about-nimbus-cloud-text180">
+              <span className="about-nimbus-cloud-text178">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pZYtA1'),
@@ -980,10 +958,32 @@ section {
           }
           chip2={
             <Fragment>
-              <span className="about-nimbus-cloud-text181">
+              <span className="about-nimbus-cloud-text179">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_3yeYxp'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionTitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text180">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_jYnL69'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionContent={
+            <Fragment>
+              <span className="about-nimbus-cloud-text181">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_vh9EN3'),
                   }}
                 ></span>
               </span>
@@ -1058,53 +1058,9 @@ section {
           locale={props?.locale ?? ''}
         ></TeamSection>
         <TrustSection
-          sectionTitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text188">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_740fnY'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionContent={
-            <Fragment>
-              <span className="about-nimbus-cloud-text189">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GoYj2j'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionSubtitle={
-            <Fragment>
-              <span className="about-nimbus-cloud-text190">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0McmWc'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionSubtitle1={
-            <Fragment>
-              <span className="about-nimbus-cloud-text191">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_znJK31'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text={
             <Fragment>
-              <span className="about-nimbus-cloud-text192">
+              <span className="about-nimbus-cloud-text188">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_SEnGob'),
@@ -1115,7 +1071,7 @@ section {
           }
           text1={
             <Fragment>
-              <span className="about-nimbus-cloud-text193">
+              <span className="about-nimbus-cloud-text189">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_B3D-Ma'),
@@ -1126,7 +1082,7 @@ section {
           }
           text2={
             <Fragment>
-              <span className="about-nimbus-cloud-text194">
+              <span className="about-nimbus-cloud-text190">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ToLaww'),
@@ -1137,7 +1093,7 @@ section {
           }
           text3={
             <Fragment>
-              <span className="about-nimbus-cloud-text195">
+              <span className="about-nimbus-cloud-text191">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_1e2hfj'),
@@ -1148,7 +1104,7 @@ section {
           }
           text4={
             <Fragment>
-              <span className="about-nimbus-cloud-text196">
+              <span className="about-nimbus-cloud-text192">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_BTC0rq'),
@@ -1159,7 +1115,7 @@ section {
           }
           text5={
             <Fragment>
-              <span className="about-nimbus-cloud-text197">
+              <span className="about-nimbus-cloud-text193">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ZRVHPs'),
@@ -1170,7 +1126,7 @@ section {
           }
           text6={
             <Fragment>
-              <span className="about-nimbus-cloud-text198">
+              <span className="about-nimbus-cloud-text194">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Ji7U9V'),
@@ -1181,7 +1137,7 @@ section {
           }
           text7={
             <Fragment>
-              <span className="about-nimbus-cloud-text199">
+              <span className="about-nimbus-cloud-text195">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ARDQCL'),
@@ -1192,7 +1148,7 @@ section {
           }
           text8={
             <Fragment>
-              <span className="about-nimbus-cloud-text200">
+              <span className="about-nimbus-cloud-text196">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_zGazla'),
@@ -1201,15 +1157,12 @@ section {
               </span>
             </Fragment>
           }
-          locale={props?.locale ?? ''}
-        ></TrustSection>
-        <CtaBandSection
           sectionTitle={
             <Fragment>
-              <span className="about-nimbus-cloud-text201">
+              <span className="about-nimbus-cloud-text197">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8Bsq-l'),
+                    __html: translate.raw('text_740fnY'),
                   }}
                 ></span>
               </span>
@@ -1217,18 +1170,43 @@ section {
           }
           sectionContent={
             <Fragment>
-              <span className="about-nimbus-cloud-text202">
+              <span className="about-nimbus-cloud-text198">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FVdmKc'),
+                    __html: translate.raw('text_GoYj2j'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
+          sectionSubtitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text199">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_0McmWc'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionSubtitle1={
+            <Fragment>
+              <span className="about-nimbus-cloud-text200">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_znJK31'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          locale={props?.locale ?? ''}
+        ></TrustSection>
+        <CtaBandSection
           text={
             <Fragment>
-              <span className="about-nimbus-cloud-text203">
+              <span className="about-nimbus-cloud-text201">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GVrU7w'),
@@ -1239,10 +1217,32 @@ section {
           }
           text1={
             <Fragment>
-              <span className="about-nimbus-cloud-text204">
+              <span className="about-nimbus-cloud-text202">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_wkh3-o'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionTitle={
+            <Fragment>
+              <span className="about-nimbus-cloud-text203">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_8Bsq-l'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          sectionContent={
+            <Fragment>
+              <span className="about-nimbus-cloud-text204">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FVdmKc'),
                   }}
                 ></span>
               </span>

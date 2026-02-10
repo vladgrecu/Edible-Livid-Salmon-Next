@@ -21,7 +21,7 @@ const StatsSection11 = (props) => {
               <h2 className="section-title">
                 {props.sectionTitle ?? (
                   <Fragment>
-                    <span className="stats-section11-text15">
+                    <span className="stats-section11-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_KkyHuT'),
@@ -34,7 +34,7 @@ const StatsSection11 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="stats-section11-text16">
+                    <span className="stats-section11-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_1Pz6qg'),
@@ -48,7 +48,7 @@ const StatsSection11 = (props) => {
                 <span>
                   {props.text ?? (
                     <Fragment>
-                      <span className="stats-section11-text18">
+                      <span className="stats-section11-text15">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_i3tLtG'),
@@ -62,7 +62,7 @@ const StatsSection11 = (props) => {
               <p className="section-subtitle">
                 {props.sectionSubtitle ?? (
                   <Fragment>
-                    <span className="stats-section11-text17">
+                    <span className="stats-section11-text18">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_Mdlv1J'),
@@ -95,7 +95,7 @@ const StatsSection11 = (props) => {
                 <span>
                   {props.text2 ?? (
                     <Fragment>
-                      <span className="stats-section11-text20">
+                      <span className="stats-section11-text21">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_yOND9I'),
@@ -114,7 +114,7 @@ const StatsSection11 = (props) => {
                 <span>
                   {props.text3 ?? (
                     <Fragment>
-                      <span className="stats-section11-text21">
+                      <span className="stats-section11-text22">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_nepEVc'),
@@ -129,7 +129,7 @@ const StatsSection11 = (props) => {
                 <span>
                   {props.text4 ?? (
                     <Fragment>
-                      <span className="stats-section11-text22">
+                      <span className="stats-section11-text16">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_NZ9Ucr'),
@@ -180,30 +180,30 @@ const StatsSection11 = (props) => {
 }
 
 StatsSection11.defaultProps = {
-  statsImgBgAlt: 'Data background',
-  statsImgBgSrc:
-    'https://images.pexels.com/photos/27141307/pexels-photo-27141307.jpeg?auto=compress&cs=tinysrgb&w=1500',
-  sectionTitle: undefined,
+  text: undefined,
+  text4: undefined,
   sectionContent: undefined,
   sectionSubtitle: undefined,
-  text: undefined,
   text1: undefined,
+  sectionTitle: undefined,
+  statsImgBgSrc:
+    'https://images.pexels.com/photos/27141307/pexels-photo-27141307.jpeg?auto=compress&cs=tinysrgb&w=1500',
+  statsImgBgAlt: 'Data background',
   text2: undefined,
   text3: undefined,
-  text4: undefined,
 }
 
 StatsSection11.propTypes = {
-  statsImgBgAlt: PropTypes.string,
-  statsImgBgSrc: PropTypes.string,
-  sectionTitle: PropTypes.element,
+  text: PropTypes.element,
+  text4: PropTypes.element,
   sectionContent: PropTypes.element,
   sectionSubtitle: PropTypes.element,
-  text: PropTypes.element,
   text1: PropTypes.element,
+  sectionTitle: PropTypes.element,
+  statsImgBgSrc: PropTypes.string,
+  statsImgBgAlt: PropTypes.string,
   text2: PropTypes.element,
   text3: PropTypes.element,
-  text4: PropTypes.element,
 }
 
 export default StatsSection11

@@ -7,7 +7,9 @@ const WhyExistSection = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <section className="why-exist-section-thq-why-exist-section-elm why-exist-section">
+      <section
+        className={`why-exist-section-thq-why-exist-section-elm why-exist-section ${props.rootClassName} `}
+      >
         <div className="nebula-bg"></div>
         <div className="why-exist-container">
           <div className="why-exist-grid">
@@ -17,7 +19,7 @@ const WhyExistSection = (props) => {
                 <h2 className="about-nimbuscloud-hero-title hero-title">
                   {props.heroTitle ?? (
                     <Fragment>
-                      <span className="why-exist-section-text4">
+                      <span className="why-exist-section-text5">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('HeroTitle_AsTP9M'),
@@ -30,7 +32,7 @@ const WhyExistSection = (props) => {
                 <p className="plaque-statement">
                   {props.plaqueStatement ?? (
                     <Fragment>
-                      <span className="why-exist-section-text5">
+                      <span className="why-exist-section-text2">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('PlaqueStatement_2AdWe4'),
@@ -52,7 +54,7 @@ const WhyExistSection = (props) => {
               <p className="typewriter-reveal section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="why-exist-section-text2">
+                    <span className="why-exist-section-text4">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_6J3vXT'),
@@ -66,7 +68,7 @@ const WhyExistSection = (props) => {
                 <span className="quote-mark">
                   {props.quoteMark ?? (
                     <Fragment>
-                      <span className="why-exist-section-text6">
+                      <span className="why-exist-section-text3">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('QuoteMark_ir77q1'),
@@ -79,7 +81,7 @@ const WhyExistSection = (props) => {
                 <span>
                   {props.text ?? (
                     <Fragment>
-                      <span className="why-exist-section-text7">
+                      <span className="why-exist-section-text6">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_VXq0cQ'),
@@ -106,7 +108,7 @@ const WhyExistSection = (props) => {
               <p className="closing-statement">
                 {props.closingStatement ?? (
                   <Fragment>
-                    <span className="why-exist-section-text3">
+                    <span className="why-exist-section-text7">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('ClosingStatement_EaCVCY'),
@@ -153,22 +155,24 @@ const WhyExistSection = (props) => {
 }
 
 WhyExistSection.defaultProps = {
-  sectionContent: undefined,
-  closingStatement: undefined,
-  heroTitle: undefined,
   plaqueStatement: undefined,
   quoteMark: undefined,
+  sectionContent: undefined,
+  rootClassName: '',
+  heroTitle: undefined,
   text: undefined,
+  closingStatement: undefined,
   quoteMark1: undefined,
 }
 
 WhyExistSection.propTypes = {
-  sectionContent: PropTypes.element,
-  closingStatement: PropTypes.element,
-  heroTitle: PropTypes.element,
   plaqueStatement: PropTypes.element,
   quoteMark: PropTypes.element,
+  sectionContent: PropTypes.element,
+  rootClassName: PropTypes.string,
+  heroTitle: PropTypes.element,
   text: PropTypes.element,
+  closingStatement: PropTypes.element,
   quoteMark1: PropTypes.element,
 }
 

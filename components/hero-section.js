@@ -14,7 +14,7 @@ const HeroSection = (props) => {
             <span className="hero-eyebrow">
               {props.heroEyebrow ?? (
                 <Fragment>
-                  <span className="hero-section-text21">
+                  <span className="hero-section-text25">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('HeroEyebrow_Xbl7h1'),
@@ -27,7 +27,7 @@ const HeroSection = (props) => {
             <h1 className="about-nimbuscloud-hero-title kinetic-text hero-title">
               {props.heroTitle ?? (
                 <Fragment>
-                  <span className="hero-section-text22">
+                  <span className="hero-section-text35">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('HeroTitle_8DhNuW'),
@@ -40,7 +40,7 @@ const HeroSection = (props) => {
             <p className="hero-subtitle about-nimbuscloud-hero-subtitle">
               {props.heroSubtitle ?? (
                 <Fragment>
-                  <span className="hero-section-text23">
+                  <span className="hero-section-text24">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('HeroSubtitle_hXAmTW'),
@@ -72,7 +72,7 @@ const HeroSection = (props) => {
                 <span>
                   {props.text ?? (
                     <Fragment>
-                      <span className="hero-section-text24">
+                      <span className="hero-section-text26">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_gbc4FF'),
@@ -105,7 +105,7 @@ const HeroSection = (props) => {
                 <span>
                   {props.text1 ?? (
                     <Fragment>
-                      <span className="hero-section-text25">
+                      <span className="hero-section-text32">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_X5o2OU'),
@@ -123,7 +123,7 @@ const HeroSection = (props) => {
                   <span>
                     {props.text2 ?? (
                       <Fragment>
-                        <span className="hero-section-text26">
+                        <span className="hero-section-text31">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_VfGd0a'),
@@ -149,7 +149,7 @@ const HeroSection = (props) => {
                   <span className="console-title">
                     {props.consoleTitle ?? (
                       <Fragment>
-                        <span className="hero-section-text27">
+                        <span className="hero-section-text22">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('ConsoleTitle_S_uhk_'),
@@ -166,7 +166,7 @@ const HeroSection = (props) => {
                     <span>
                       {props.text3 ?? (
                         <Fragment>
-                          <span className="hero-section-text28">
+                          <span className="hero-section-text27">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_YzawgP'),
@@ -179,7 +179,7 @@ const HeroSection = (props) => {
                     <span>
                       {props.text4 ?? (
                         <Fragment>
-                          <span className="hero-section-text29">
+                          <span className="hero-section-text23">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_jGMpVb'),
@@ -194,7 +194,7 @@ const HeroSection = (props) => {
                     <span>
                       {props.text5 ?? (
                         <Fragment>
-                          <span className="hero-section-text30">
+                          <span className="hero-section-text28">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_hFLSWR'),
@@ -207,7 +207,7 @@ const HeroSection = (props) => {
                     <span>
                       {props.text6 ?? (
                         <Fragment>
-                          <span className="hero-section-text31">
+                          <span className="hero-section-text21">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_01nD_a'),
@@ -222,7 +222,7 @@ const HeroSection = (props) => {
                     <span>
                       {props.text7 ?? (
                         <Fragment>
-                          <span className="hero-section-text32">
+                          <span className="hero-section-text30">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_nd6Qyj'),
@@ -235,7 +235,7 @@ const HeroSection = (props) => {
                     <span>
                       {props.text8 ?? (
                         <Fragment>
-                          <span className="hero-section-text33">
+                          <span className="hero-section-text29">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_rizsHD'),
@@ -263,7 +263,7 @@ const HeroSection = (props) => {
                     <span>
                       {props.text10 ?? (
                         <Fragment>
-                          <span className="hero-section-text35">
+                          <span className="hero-section-text33">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_LO2ajD'),
@@ -337,39 +337,39 @@ const HeroSection = (props) => {
 }
 
 HeroSection.defaultProps = {
-  heroEyebrow: undefined,
-  heroTitle: undefined,
-  heroSubtitle: undefined,
-  text: undefined,
-  text1: undefined,
-  text2: undefined,
-  consoleTitle: undefined,
-  text3: undefined,
-  text4: undefined,
-  text5: undefined,
   text6: undefined,
-  text7: undefined,
+  consoleTitle: undefined,
+  text4: undefined,
+  heroSubtitle: undefined,
+  heroEyebrow: undefined,
+  text: undefined,
+  text3: undefined,
+  text5: undefined,
   text8: undefined,
-  text9: undefined,
+  text7: undefined,
+  text2: undefined,
+  text1: undefined,
   text10: undefined,
+  text9: undefined,
+  heroTitle: undefined,
 }
 
 HeroSection.propTypes = {
-  heroEyebrow: PropTypes.element,
-  heroTitle: PropTypes.element,
-  heroSubtitle: PropTypes.element,
-  text: PropTypes.element,
-  text1: PropTypes.element,
-  text2: PropTypes.element,
-  consoleTitle: PropTypes.element,
-  text3: PropTypes.element,
-  text4: PropTypes.element,
-  text5: PropTypes.element,
   text6: PropTypes.element,
-  text7: PropTypes.element,
+  consoleTitle: PropTypes.element,
+  text4: PropTypes.element,
+  heroSubtitle: PropTypes.element,
+  heroEyebrow: PropTypes.element,
+  text: PropTypes.element,
+  text3: PropTypes.element,
+  text5: PropTypes.element,
   text8: PropTypes.element,
-  text9: PropTypes.element,
+  text7: PropTypes.element,
+  text2: PropTypes.element,
+  text1: PropTypes.element,
   text10: PropTypes.element,
+  text9: PropTypes.element,
+  heroTitle: PropTypes.element,
 }
 
 export default HeroSection

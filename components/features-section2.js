@@ -7,7 +7,9 @@ const FeaturesSection2 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <section className="features-section2-thq-features-section-elm features-section">
+      <section
+        className={`features-section2-thq-features-section-elm features-section ${props.rootClassName} `}
+      >
         <div className="features-container">
           <div className="features-header">
             <h2 className="section-title">
@@ -26,7 +28,7 @@ const FeaturesSection2 = (props) => {
             <p className="section-subtitle">
               {props.sectionSubtitle ?? (
                 <Fragment>
-                  <span className="features-section2-text11">
+                  <span className="features-section2-text16">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionSubtitle_1E82n_'),
@@ -62,7 +64,7 @@ const FeaturesSection2 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle1 ?? (
                   <Fragment>
-                    <span className="features-section2-text12">
+                    <span className="features-section2-text19">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_gOdXou'),
@@ -75,7 +77,7 @@ const FeaturesSection2 = (props) => {
               <p className="section-content">
                 {props.sectionContent ?? (
                   <Fragment>
-                    <span className="features-section2-text13">
+                    <span className="features-section2-text18">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_3yO8gV'),
@@ -107,7 +109,7 @@ const FeaturesSection2 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle2 ?? (
                   <Fragment>
-                    <span className="features-section2-text14">
+                    <span className="features-section2-text12">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_BmtHDf'),
@@ -120,7 +122,7 @@ const FeaturesSection2 = (props) => {
               <p className="section-content">
                 {props.sectionContent1 ?? (
                   <Fragment>
-                    <span className="features-section2-text15">
+                    <span className="features-section2-text13">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_WoU_Nw'),
@@ -154,7 +156,7 @@ const FeaturesSection2 = (props) => {
               <h4 className="section-title">
                 {props.sectionTitle3 ?? (
                   <Fragment>
-                    <span className="features-section2-text16">
+                    <span className="features-section2-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_YyEFw_'),
@@ -167,7 +169,7 @@ const FeaturesSection2 = (props) => {
               <p className="section-content">
                 {props.sectionContent2 ?? (
                   <Fragment>
-                    <span className="features-section2-text17">
+                    <span className="features-section2-text21">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_44kSzI'),
@@ -199,7 +201,7 @@ const FeaturesSection2 = (props) => {
               <h4 className="section-title">
                 {props.sectionTitle4 ?? (
                   <Fragment>
-                    <span className="features-section2-text18">
+                    <span className="features-section2-text17">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_BUqjTF'),
@@ -212,7 +214,7 @@ const FeaturesSection2 = (props) => {
               <p className="section-content">
                 {props.sectionContent3 ?? (
                   <Fragment>
-                    <span className="features-section2-text19">
+                    <span className="features-section2-text15">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_7GXXIK'),
@@ -246,7 +248,7 @@ const FeaturesSection2 = (props) => {
               <h3 className="section-title">
                 {props.sectionTitle5 ?? (
                   <Fragment>
-                    <span className="features-section2-text20">
+                    <span className="features-section2-text11">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionTitle_4AKLbL'),
@@ -259,7 +261,7 @@ const FeaturesSection2 = (props) => {
               <p className="section-content">
                 {props.sectionContent4 ?? (
                   <Fragment>
-                    <span className="features-section2-text21">
+                    <span className="features-section2-text14">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('SectionContent_0s_XVC'),
@@ -322,32 +324,34 @@ const FeaturesSection2 = (props) => {
 
 FeaturesSection2.defaultProps = {
   sectionTitle: undefined,
-  sectionSubtitle: undefined,
-  sectionTitle1: undefined,
-  sectionContent: undefined,
+  sectionTitle5: undefined,
   sectionTitle2: undefined,
   sectionContent1: undefined,
+  sectionContent4: undefined,
+  sectionContent3: undefined,
+  sectionSubtitle: undefined,
+  rootClassName: '',
+  sectionTitle4: undefined,
+  sectionContent: undefined,
+  sectionTitle1: undefined,
   sectionTitle3: undefined,
   sectionContent2: undefined,
-  sectionTitle4: undefined,
-  sectionContent3: undefined,
-  sectionTitle5: undefined,
-  sectionContent4: undefined,
 }
 
 FeaturesSection2.propTypes = {
   sectionTitle: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  sectionTitle1: PropTypes.element,
-  sectionContent: PropTypes.element,
+  sectionTitle5: PropTypes.element,
   sectionTitle2: PropTypes.element,
   sectionContent1: PropTypes.element,
+  sectionContent4: PropTypes.element,
+  sectionContent3: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  rootClassName: PropTypes.string,
+  sectionTitle4: PropTypes.element,
+  sectionContent: PropTypes.element,
+  sectionTitle1: PropTypes.element,
   sectionTitle3: PropTypes.element,
   sectionContent2: PropTypes.element,
-  sectionTitle4: PropTypes.element,
-  sectionContent3: PropTypes.element,
-  sectionTitle5: PropTypes.element,
-  sectionContent4: PropTypes.element,
 }
 
 export default FeaturesSection2

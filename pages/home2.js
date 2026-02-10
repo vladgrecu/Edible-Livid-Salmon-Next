@@ -55,31 +55,9 @@ const Home2 = (props) => {
         <Navigation locale={props?.locale ?? ''}></Navigation>
         <main className="homepage-wrapper">
           <HeroSection1
-            heroTitle={
-              <Fragment>
-                <span className="home2-text10">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_ZCZ9Jo'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            heroSubtitle={
-              <Fragment>
-                <span className="home2-text11">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_xa7tUc'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             text={
               <Fragment>
-                <span className="home2-text12">
+                <span className="home2-text10">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_rYuO0g'),
@@ -90,7 +68,7 @@ const Home2 = (props) => {
             }
             text1={
               <Fragment>
-                <span className="home2-text13">
+                <span className="home2-text11">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_a0K2kQ'),
@@ -101,10 +79,32 @@ const Home2 = (props) => {
             }
             heading={
               <Fragment>
-                <span className="home2-text14">
+                <span className="home2-text12">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_cZ_L9x'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            heroTitle={
+              <Fragment>
+                <span className="home2-text13">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_ZCZ9Jo'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            heroSubtitle={
+              <Fragment>
+                <span className="home2-text14">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_xa7tUc'),
                     }}
                   ></span>
                 </span>
@@ -124,20 +124,9 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            sectionSubtitle={
-              <Fragment>
-                <span className="home2-text16">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_YyHarS'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             sectionTitle1={
               <Fragment>
-                <span className="home2-text17">
+                <span className="home2-text16">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_v4Rq5f'),
@@ -146,20 +135,9 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            sectionContent={
-              <Fragment>
-                <span className="home2-text18">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_BQ5UGJ'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             sectionTitle2={
               <Fragment>
-                <span className="home2-text19">
+                <span className="home2-text17">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_3FiljE'),
@@ -168,20 +146,9 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            sectionContent1={
-              <Fragment>
-                <span className="home2-text20">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_XRckKa'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             sectionTitle3={
               <Fragment>
-                <span className="home2-text21">
+                <span className="home2-text18">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_9M8rkf'),
@@ -190,23 +157,56 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            sectionContent2={
+            sectionTitle4={
               <Fragment>
-                <span className="home2-text22">
+                <span className="home2-text19">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_TMQcGu'),
+                      __html: translate.raw('text_-qizqX'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
-            sectionTitle4={
+            sectionTitle5={
+              <Fragment>
+                <span className="home2-text20">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_r96nlY'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionContent={
+              <Fragment>
+                <span className="home2-text21">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_BQ5UGJ'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionContent1={
+              <Fragment>
+                <span className="home2-text22">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_XRckKa'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionContent2={
               <Fragment>
                 <span className="home2-text23">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_-qizqX'),
+                      __html: translate.raw('text_TMQcGu'),
                     }}
                   ></span>
                 </span>
@@ -223,20 +223,9 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            sectionTitle5={
-              <Fragment>
-                <span className="home2-text25">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_r96nlY'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             sectionContent4={
               <Fragment>
-                <span className="home2-text26">
+                <span className="home2-text25">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_PsDlJE'),
@@ -245,23 +234,23 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            locale={props?.locale ?? ''}
-          ></FeaturesSection2>
-          <DashboardSection
-            tabLabel={
+            sectionSubtitle={
               <Fragment>
-                <span className="home2-text27">
+                <span className="home2-text26">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_d160uY'),
+                      __html: translate.raw('text_YyHarS'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
+            locale={props?.locale ?? ''}
+          ></FeaturesSection2>
+          <DashboardSection
             tabDesc={
               <Fragment>
-                <span className="home2-text28">
+                <span className="home2-text27">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_lPpM2a'),
@@ -270,20 +259,9 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            tabLabel1={
-              <Fragment>
-                <span className="home2-text29">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_cJN_6p'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             tabDesc1={
               <Fragment>
-                <span className="home2-text30">
+                <span className="home2-text28">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_b_4JnO'),
@@ -292,20 +270,9 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            tabLabel2={
-              <Fragment>
-                <span className="home2-text31">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_Huqgmd'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             tabDesc2={
               <Fragment>
-                <span className="home2-text32">
+                <span className="home2-text29">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_ZgnH2r'),
@@ -314,111 +281,45 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
+            tabLabel={
+              <Fragment>
+                <span className="home2-text30">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_d160uY'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            tabLabel1={
+              <Fragment>
+                <span className="home2-text31">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_cJN_6p'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            tabLabel2={
+              <Fragment>
+                <span className="home2-text32">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_Huqgmd'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
             locale={props?.locale ?? ''}
           ></DashboardSection>
           <IntegrationsSection
-            sectionTitle={
-              <Fragment>
-                <span className="home2-text33">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_N2gslb'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionSubtitle={
-              <Fragment>
-                <span className="home2-text34">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_GiL7_o'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionTitle1={
-              <Fragment>
-                <span className="home2-text35">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_ldT16N'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionContent={
-              <Fragment>
-                <span className="home2-text36">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_5gh4Ny'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionTitle2={
-              <Fragment>
-                <span className="home2-text37">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_QIRCzT'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionContent1={
-              <Fragment>
-                <span className="home2-text38">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_FRnfvu'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            intTag={
-              <Fragment>
-                <span className="home2-text39">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_gVBx_2'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            intTag1={
-              <Fragment>
-                <span className="home2-text40">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_yLewIG'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            intTag2={
-              <Fragment>
-                <span className="home2-text41">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_uv3bjU'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             text={
               <Fragment>
-                <span className="home2-text42">
+                <span className="home2-text33">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_TrLTXf'),
@@ -429,7 +330,7 @@ const Home2 = (props) => {
             }
             text1={
               <Fragment>
-                <span className="home2-text43">
+                <span className="home2-text34">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_BOBjtc'),
@@ -440,7 +341,7 @@ const Home2 = (props) => {
             }
             text2={
               <Fragment>
-                <span className="home2-text44">
+                <span className="home2-text35">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_wk4Cc4'),
@@ -451,7 +352,7 @@ const Home2 = (props) => {
             }
             text3={
               <Fragment>
-                <span className="home2-text45">
+                <span className="home2-text36">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_CklrKB'),
@@ -460,15 +361,67 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            locale={props?.locale ?? ''}
-          ></IntegrationsSection>
-          <StatsSection2
-            sectionTitle={
+            intTag={
               <Fragment>
-                <span className="home2-text46">
+                <span className="home2-text37">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_fTf8VG'),
+                      __html: translate.raw('text_gVBx_2'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            intTag1={
+              <Fragment>
+                <span className="home2-text38">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_yLewIG'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            intTag2={
+              <Fragment>
+                <span className="home2-text39">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_uv3bjU'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle={
+              <Fragment>
+                <span className="home2-text40">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_N2gslb'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle1={
+              <Fragment>
+                <span className="home2-text41">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_ldT16N'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle2={
+              <Fragment>
+                <span className="home2-text42">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_QIRCzT'),
                     }}
                   ></span>
                 </span>
@@ -476,10 +429,21 @@ const Home2 = (props) => {
             }
             sectionContent={
               <Fragment>
-                <span className="home2-text47">
+                <span className="home2-text43">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_4M4aDj'),
+                      __html: translate.raw('text_5gh4Ny'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionContent1={
+              <Fragment>
+                <span className="home2-text44">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_FRnfvu'),
                     }}
                   ></span>
                 </span>
@@ -487,18 +451,21 @@ const Home2 = (props) => {
             }
             sectionSubtitle={
               <Fragment>
-                <span className="home2-text48">
+                <span className="home2-text45">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_thAxDi'),
+                      __html: translate.raw('text_GiL7_o'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
+            locale={props?.locale ?? ''}
+          ></IntegrationsSection>
+          <StatsSection2
             text={
               <Fragment>
-                <span className="home2-text49">
+                <span className="home2-text46">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_BFv5hd'),
@@ -509,7 +476,7 @@ const Home2 = (props) => {
             }
             text1={
               <Fragment>
-                <span className="home2-text50">
+                <span className="home2-text47">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_2fNppa'),
@@ -520,7 +487,7 @@ const Home2 = (props) => {
             }
             text2={
               <Fragment>
-                <span className="home2-text51">
+                <span className="home2-text48">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_o9k8ey'),
@@ -531,7 +498,7 @@ const Home2 = (props) => {
             }
             text3={
               <Fragment>
-                <span className="home2-text52">
+                <span className="home2-text49">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_s5uzTD'),
@@ -542,7 +509,7 @@ const Home2 = (props) => {
             }
             text4={
               <Fragment>
-                <span className="home2-text53">
+                <span className="home2-text50">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_whvSot'),
@@ -551,15 +518,12 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            locale={props?.locale ?? ''}
-          ></StatsSection2>
-          <TestimonialsSection
             sectionTitle={
               <Fragment>
-                <span className="home2-text54">
+                <span className="home2-text51">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_UVCCVU'),
+                      __html: translate.raw('text_fTf8VG'),
                     }}
                   ></span>
                 </span>
@@ -567,40 +531,32 @@ const Home2 = (props) => {
             }
             sectionContent={
               <Fragment>
-                <span className="home2-text55">
+                <span className="home2-text52">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_AncUZh'),
+                      __html: translate.raw('text_4M4aDj'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
-            sectionContent1={
+            sectionSubtitle={
               <Fragment>
-                <span className="home2-text56">
+                <span className="home2-text53">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_fjLpyl'),
+                      __html: translate.raw('text_thAxDi'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
-            sectionContent2={
-              <Fragment>
-                <span className="home2-text57">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_NXTaXX'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
+            locale={props?.locale ?? ''}
+          ></StatsSection2>
+          <TestimonialsSection
             authorName={
               <Fragment>
-                <span className="home2-text58">
+                <span className="home2-text54">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_wLSB3T'),
@@ -611,7 +567,7 @@ const Home2 = (props) => {
             }
             authorRole={
               <Fragment>
-                <span className="home2-text59">
+                <span className="home2-text55">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_fuWyOb'),
@@ -622,7 +578,7 @@ const Home2 = (props) => {
             }
             authorName1={
               <Fragment>
-                <span className="home2-text60">
+                <span className="home2-text56">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_-KKu_1'),
@@ -631,20 +587,9 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            authorRole1={
-              <Fragment>
-                <span className="home2-text61">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_OzJU19'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             authorName2={
               <Fragment>
-                <span className="home2-text62">
+                <span className="home2-text57">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_RFEzl8'),
@@ -653,9 +598,20 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
+            authorRole1={
+              <Fragment>
+                <span className="home2-text58">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_OzJU19'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
             authorRole2={
               <Fragment>
-                <span className="home2-text63">
+                <span className="home2-text59">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_yExeX0'),
@@ -664,48 +620,12 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
-            locale={props?.locale ?? ''}
-          ></TestimonialsSection>
-          <CtaSection3
             sectionTitle={
               <Fragment>
-                <span className="home2-text64">
+                <span className="home2-text60">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_lgD0tG'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionSubtitle={
-              <Fragment>
-                <span className="home2-text65">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_m817XW'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionTitle1={
-              <Fragment>
-                <span className="home2-text66">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_WfnmRd'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
-            sectionTitle2={
-              <Fragment>
-                <span className="home2-text67">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_X2JRyY'),
+                      __html: translate.raw('text_UVCCVU'),
                     }}
                   ></span>
                 </span>
@@ -713,40 +633,43 @@ const Home2 = (props) => {
             }
             sectionContent={
               <Fragment>
-                <span className="home2-text68">
+                <span className="home2-text61">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_EG8Ri8'),
+                      __html: translate.raw('text_AncUZh'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
-            formDisclaimer={
+            sectionContent1={
               <Fragment>
-                <span className="home2-text69">
+                <span className="home2-text62">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_8_3Wt4'),
+                      __html: translate.raw('text_fjLpyl'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
-            text={
+            sectionContent2={
               <Fragment>
-                <span className="home2-text70">
+                <span className="home2-text63">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_MkQ7Ny'),
+                      __html: translate.raw('text_NXTaXX'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             }
+            locale={props?.locale ?? ''}
+          ></TestimonialsSection>
+          <CtaSection3
             btn={
               <Fragment>
-                <span className="home2-text71">
+                <span className="home2-text64">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_6zoIWK'),
@@ -755,9 +678,20 @@ const Home2 = (props) => {
                 </span>
               </Fragment>
             }
+            text={
+              <Fragment>
+                <span className="home2-text65">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_MkQ7Ny'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
             text1={
               <Fragment>
-                <span className="home2-text72">
+                <span className="home2-text66">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_93ID-h'),
@@ -768,7 +702,7 @@ const Home2 = (props) => {
             }
             text2={
               <Fragment>
-                <span className="home2-text73">
+                <span className="home2-text67">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_Vu_Dua'),
@@ -779,7 +713,7 @@ const Home2 = (props) => {
             }
             text3={
               <Fragment>
-                <span className="home2-text74">
+                <span className="home2-text68">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_E45zDQ'),
@@ -790,10 +724,76 @@ const Home2 = (props) => {
             }
             text4={
               <Fragment>
-                <span className="home2-text75">
+                <span className="home2-text69">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_VpHSX8'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle={
+              <Fragment>
+                <span className="home2-text70">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_lgD0tG'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle1={
+              <Fragment>
+                <span className="home2-text71">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_WfnmRd'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionTitle2={
+              <Fragment>
+                <span className="home2-text72">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_X2JRyY'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            formDisclaimer={
+              <Fragment>
+                <span className="home2-text73">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_8_3Wt4'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionContent={
+              <Fragment>
+                <span className="home2-text74">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_EG8Ri8'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            }
+            sectionSubtitle={
+              <Fragment>
+                <span className="home2-text75">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_m817XW'),
                     }}
                   ></span>
                 </span>
@@ -894,28 +894,28 @@ transform: scale(1);}}
         <PricingPlans locale={props?.locale ?? ''}></PricingPlans>
         <video
           src="/screen%20recording%202026-02-09%20at%2020.29.202.mov"
+          loop="true"
+          muted="true"
           poster="https://play.teleporthq.io/static/svg/videoposter.svg"
           autoPlay="true"
-          muted="true"
-          loop="true"
           playsInline="true"
           className="home2-video1"
         ></video>
         <video
           src="/screen%20recording%202026-02-09%20at%2020.29.201.mov"
+          loop="true"
+          muted="true"
           poster="https://play.teleporthq.io/static/svg/videoposter.svg"
           autoPlay="true"
-          muted="true"
-          loop="true"
           playsInline="true"
           className="home2-video2"
         ></video>
         <video
           src="/screen%20recording%202026-02-09%20at%2020.29.20.mov"
+          loop="true"
+          muted="true"
           poster="https://play.teleporthq.io/static/svg/videoposter.svg"
           autoPlay="true"
-          muted="true"
-          loop="true"
           playsInline="true"
           className="home2-video3"
         ></video>

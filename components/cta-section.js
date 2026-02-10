@@ -13,7 +13,7 @@ const CtaSection = (props) => {
             <h2 className="section-title">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="cta-section-text16">
+                  <span className="cta-section-text17">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle__X597L'),
@@ -26,7 +26,7 @@ const CtaSection = (props) => {
             <p className="section-subtitle">
               {props.sectionSubtitle ?? (
                 <Fragment>
-                  <span className="cta-section-text17">
+                  <span className="cta-section-text19">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionSubtitle_4e0AUv'),
@@ -77,7 +77,7 @@ const CtaSection = (props) => {
               <p className="form-disclaimer">
                 {props.formDisclaimer ?? (
                   <Fragment>
-                    <span className="cta-section-text21">
+                    <span className="cta-section-text20">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('FormDisclaimer_CkEwis'),
@@ -109,7 +109,7 @@ const CtaSection = (props) => {
                   <span>
                     {props.text1 ?? (
                       <Fragment>
-                        <span className="cta-section-text24">
+                        <span className="cta-section-text21">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_7X6e9H'),
@@ -126,7 +126,7 @@ const CtaSection = (props) => {
                   <span>
                     {props.text2 ?? (
                       <Fragment>
-                        <span className="cta-section-text25">
+                        <span className="cta-section-text22">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_mLyKRR'),
@@ -143,7 +143,7 @@ const CtaSection = (props) => {
                   <span>
                     {props.text3 ?? (
                       <Fragment>
-                        <span className="cta-section-text26">
+                        <span className="cta-section-text16">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_fcmFvm'),
@@ -160,7 +160,7 @@ const CtaSection = (props) => {
                   <span>
                     {props.text4 ?? (
                       <Fragment>
-                        <span className="cta-section-text27">
+                        <span className="cta-section-text26">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_yJjPON'),
@@ -178,7 +178,7 @@ const CtaSection = (props) => {
             <h3 className="section-title">
               {props.sectionTitle2 ?? (
                 <Fragment>
-                  <span className="cta-section-text19">
+                  <span className="cta-section-text27">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionTitle_NO2cjc'),
@@ -191,7 +191,7 @@ const CtaSection = (props) => {
             <p className="section-content">
               {props.sectionContent ?? (
                 <Fragment>
-                  <span className="cta-section-text20">
+                  <span className="cta-section-text25">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('SectionContent_z68wo9'),
@@ -206,7 +206,7 @@ const CtaSection = (props) => {
                 <span>
                   {props.text ?? (
                     <Fragment>
-                      <span className="cta-section-text22">
+                      <span className="cta-section-text24">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_drGGEA'),
@@ -269,35 +269,35 @@ const CtaSection = (props) => {
 }
 
 CtaSection.defaultProps = {
+  text3: undefined,
   sectionTitle: undefined,
-  sectionSubtitle: undefined,
   sectionTitle1: undefined,
-  sectionTitle2: undefined,
-  sectionContent: undefined,
+  sectionSubtitle: undefined,
   formDisclaimer: undefined,
-  text: undefined,
-  formInputPlaceholder: 'Enter your work email',
-  btn: undefined,
   text1: undefined,
   text2: undefined,
-  text3: undefined,
+  btn: undefined,
+  text: undefined,
+  sectionContent: undefined,
+  formInputPlaceholder: 'Enter your work email',
   text4: undefined,
+  sectionTitle2: undefined,
 }
 
 CtaSection.propTypes = {
+  text3: PropTypes.element,
   sectionTitle: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
   sectionTitle1: PropTypes.element,
-  sectionTitle2: PropTypes.element,
-  sectionContent: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
   formDisclaimer: PropTypes.element,
-  text: PropTypes.element,
-  formInputPlaceholder: PropTypes.string,
-  btn: PropTypes.element,
   text1: PropTypes.element,
   text2: PropTypes.element,
-  text3: PropTypes.element,
+  btn: PropTypes.element,
+  text: PropTypes.element,
+  sectionContent: PropTypes.element,
+  formInputPlaceholder: PropTypes.string,
   text4: PropTypes.element,
+  sectionTitle2: PropTypes.element,
 }
 
 export default CtaSection

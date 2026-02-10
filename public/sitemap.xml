@@ -3,6 +3,24 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://admin.teleporthq.ai/home3</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home3" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/home3</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home3" />
+  </url>
+  <url>
     <loc>https://admin.teleporthq.ai/home111</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -19,6 +37,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home111" />
     <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home111" />
     <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home111" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/home11121</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home11121" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home11121" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home11121" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/home11121</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home11121" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home11121" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home11121" />
   </url>
   <url>
     <loc>https://admin.teleporthq.ai/home11</loc>
@@ -55,6 +91,42 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page" />
     <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page" />
     <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/home1112</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home1112" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home1112" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home1112" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/home1112</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home1112" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home1112" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home1112" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/sign-in12</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/sign-in12" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/sign-in12" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/sign-in12" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/sign-in12</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/sign-in12" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/sign-in12" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/sign-in12" />
   </url>
   <url>
     <loc>https://admin.teleporthq.ai/sign-in11</loc>
@@ -183,24 +255,6 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/sign-in" />
   </url>
   <url>
-    <loc>https://admin.teleporthq.ai/sign-in12</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/sign-in12" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/sign-in12" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/sign-in12" />
-  </url>
-  <url>
-    <loc>https://admin.teleporthq.ai/es/sign-in12</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/sign-in12" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/sign-in12" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/sign-in12" />
-  </url>
-  <url>
     <loc>https://admin.teleporthq.ai/sign-in111</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -217,42 +271,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/sign-in111" />
     <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/sign-in111" />
     <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/sign-in111" />
-  </url>
-  <url>
-    <loc>https://admin.teleporthq.ai/home1112</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home1112" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home1112" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home1112" />
-  </url>
-  <url>
-    <loc>https://admin.teleporthq.ai/es/home1112</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home1112" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home1112" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home1112" />
-  </url>
-  <url>
-    <loc>https://admin.teleporthq.ai/home11121</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home11121" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home11121" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home11121" />
-  </url>
-  <url>
-    <loc>https://admin.teleporthq.ai/es/home11121</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home11121" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home11121" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home11121" />
   </url>
   <url>
     <loc>https://admin.teleporthq.ai/home2</loc>
@@ -273,21 +291,183 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home2" />
   </url>
   <url>
-    <loc>https://admin.teleporthq.ai/home3</loc>
+    <loc>https://admin.teleporthq.ai/page1</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home3" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home3" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home3" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page1" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page1" />
   </url>
   <url>
-    <loc>https://admin.teleporthq.ai/es/home3</loc>
+    <loc>https://admin.teleporthq.ai/es/page1</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/home3" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/home3" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/home3" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page1" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page1" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page2</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page2" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page2</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page2" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page2" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page3</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page3" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page3</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page3" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page3" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page4</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page4" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page4" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page4</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page4" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page4" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page5</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page5" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page5" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page5</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page5" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page5" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page6</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page6" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page6" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page6</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page6" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page6" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page31</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page31" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page31" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page31" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page31</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page31" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page31" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page31" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page41</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page41" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page41" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page41" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page41</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page41" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page41" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page41" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page42</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page42" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page42" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page42" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page42</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page42" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page42" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page42" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/page51</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page51" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page51" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page51" />
+  </url>
+  <url>
+    <loc>https://admin.teleporthq.ai/es/page51</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://admin.teleporthq.ai/page51" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://admin.teleporthq.ai/page51" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://admin.teleporthq.ai/es/page51" />
   </url>
 </urlset>

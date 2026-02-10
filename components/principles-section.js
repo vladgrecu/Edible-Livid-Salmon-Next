@@ -12,7 +12,7 @@ const PrinciplesSection = (props) => {
           <h2 className="section-title centered">
             {props.sectionTitle ?? (
               <Fragment>
-                <span className="principles-section-text10">
+                <span className="principles-section-text11">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('SectionTitle_JXHr4s'),
@@ -29,7 +29,7 @@ const PrinciplesSection = (props) => {
                   <span className="principle-label">
                     {props.principleLabel ?? (
                       <Fragment>
-                        <span className="principles-section-text16">
+                        <span className="principles-section-text23">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('PrincipleLabel_sefZl7'),
@@ -42,7 +42,7 @@ const PrinciplesSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle ?? (
                       <Fragment>
-                        <span className="principles-section-text17">
+                        <span className="principles-section-text22">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_T5LrM1'),
@@ -59,7 +59,7 @@ const PrinciplesSection = (props) => {
                 <p className="section-content">
                   {props.sectionContent ?? (
                     <Fragment>
-                      <span className="principles-section-text11">
+                      <span className="principles-section-text13">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_nhiedy'),
@@ -77,7 +77,7 @@ const PrinciplesSection = (props) => {
                   <span className="principle-label">
                     {props.principleLabel1 ?? (
                       <Fragment>
-                        <span className="principles-section-text18">
+                        <span className="principles-section-text15">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('PrincipleLabel_AA6Zw6'),
@@ -90,7 +90,7 @@ const PrinciplesSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle1 ?? (
                       <Fragment>
-                        <span className="principles-section-text19">
+                        <span className="principles-section-text14">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_MBU1mP'),
@@ -107,7 +107,7 @@ const PrinciplesSection = (props) => {
                 <p className="section-content">
                   {props.sectionContent1 ?? (
                     <Fragment>
-                      <span className="principles-section-text12">
+                      <span className="principles-section-text16">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_PxkMTf'),
@@ -125,7 +125,7 @@ const PrinciplesSection = (props) => {
                   <span className="principle-label">
                     {props.principleLabel2 ?? (
                       <Fragment>
-                        <span className="principles-section-text20">
+                        <span className="principles-section-text25">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('PrincipleLabel_hQvvXa'),
@@ -138,7 +138,7 @@ const PrinciplesSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle2 ?? (
                       <Fragment>
-                        <span className="principles-section-text21">
+                        <span className="principles-section-text10">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_CRJO2T'),
@@ -155,7 +155,7 @@ const PrinciplesSection = (props) => {
                 <p className="section-content">
                   {props.sectionContent2 ?? (
                     <Fragment>
-                      <span className="principles-section-text13">
+                      <span className="principles-section-text17">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_FMou4A'),
@@ -173,7 +173,7 @@ const PrinciplesSection = (props) => {
                   <span className="principle-label">
                     {props.principleLabel3 ?? (
                       <Fragment>
-                        <span className="principles-section-text22">
+                        <span className="principles-section-text20">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('PrincipleLabel_Y0DZpA'),
@@ -186,7 +186,7 @@ const PrinciplesSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle3 ?? (
                       <Fragment>
-                        <span className="principles-section-text23">
+                        <span className="principles-section-text18">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_orLv5Q'),
@@ -203,7 +203,7 @@ const PrinciplesSection = (props) => {
                 <p className="section-content">
                   {props.sectionContent3 ?? (
                     <Fragment>
-                      <span className="principles-section-text14">
+                      <span className="principles-section-text19">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_dBa8Em'),
@@ -234,7 +234,7 @@ const PrinciplesSection = (props) => {
                   <h3 className="section-subtitle">
                     {props.sectionSubtitle4 ?? (
                       <Fragment>
-                        <span className="principles-section-text25">
+                        <span className="principles-section-text12">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('SectionSubtitle_QdicV1'),
@@ -251,7 +251,7 @@ const PrinciplesSection = (props) => {
                 <p className="section-content">
                   {props.sectionContent4 ?? (
                     <Fragment>
-                      <span className="principles-section-text15">
+                      <span className="principles-section-text21">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('SectionContent_rZ1BQe'),
@@ -326,41 +326,41 @@ const PrinciplesSection = (props) => {
 }
 
 PrinciplesSection.defaultProps = {
+  sectionSubtitle2: undefined,
   sectionTitle: undefined,
+  sectionSubtitle4: undefined,
   sectionContent: undefined,
+  sectionSubtitle1: undefined,
+  principleLabel1: undefined,
   sectionContent1: undefined,
   sectionContent2: undefined,
-  sectionContent3: undefined,
-  sectionContent4: undefined,
-  principleLabel: undefined,
-  sectionSubtitle: undefined,
-  principleLabel1: undefined,
-  sectionSubtitle1: undefined,
-  principleLabel2: undefined,
-  sectionSubtitle2: undefined,
-  principleLabel3: undefined,
   sectionSubtitle3: undefined,
+  sectionContent3: undefined,
+  principleLabel3: undefined,
+  sectionContent4: undefined,
+  sectionSubtitle: undefined,
+  principleLabel: undefined,
   principleLabel4: undefined,
-  sectionSubtitle4: undefined,
+  principleLabel2: undefined,
 }
 
 PrinciplesSection.propTypes = {
+  sectionSubtitle2: PropTypes.element,
   sectionTitle: PropTypes.element,
+  sectionSubtitle4: PropTypes.element,
   sectionContent: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
+  principleLabel1: PropTypes.element,
   sectionContent1: PropTypes.element,
   sectionContent2: PropTypes.element,
-  sectionContent3: PropTypes.element,
-  sectionContent4: PropTypes.element,
-  principleLabel: PropTypes.element,
-  sectionSubtitle: PropTypes.element,
-  principleLabel1: PropTypes.element,
-  sectionSubtitle1: PropTypes.element,
-  principleLabel2: PropTypes.element,
-  sectionSubtitle2: PropTypes.element,
-  principleLabel3: PropTypes.element,
   sectionSubtitle3: PropTypes.element,
+  sectionContent3: PropTypes.element,
+  principleLabel3: PropTypes.element,
+  sectionContent4: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  principleLabel: PropTypes.element,
   principleLabel4: PropTypes.element,
-  sectionSubtitle4: PropTypes.element,
+  principleLabel2: PropTypes.element,
 }
 
 export default PrinciplesSection
