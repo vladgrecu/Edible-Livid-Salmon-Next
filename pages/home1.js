@@ -143,7 +143,7 @@ const Home1 = (props) => {
                       }),
                       []
                     )}
-                    initialData={props.javascript_PEC_data_data_S53oMSWX6z}
+                    initialData={props.javascript_PEC_data_data_Cuxc9aVo7I}
                     persistDataDuringLoading={true}
                     fetchData={useCallback(
                       (params) =>
@@ -1128,14 +1128,14 @@ export async function getStaticProps(context) {
   try {
     const messages = (await import('/locales/' + context.locale + '.json'))
       .default
-    const [javascript_PEC_data_data_S53oMSWX6z] = await Promise.all([
+    const [javascript_PEC_data_data_Cuxc9aVo7I] = await Promise.all([
       javascriptData5ef2eac3
         .fetchData({
           limit: 20,
         })
         .catch((error) => {
           console.error(
-            'Error fetching javascript_PEC_data_data_S53oMSWX6z:',
+            'Error fetching javascript_PEC_data_data_Cuxc9aVo7I:',
             error
           )
           return []
@@ -1144,8 +1144,8 @@ export async function getStaticProps(context) {
     return {
       props: {
         messages,
-        javascript_PEC_data_data_S53oMSWX6z:
-          javascript_PEC_data_data_S53oMSWX6z,
+        javascript_PEC_data_data_Cuxc9aVo7I:
+          javascript_PEC_data_data_Cuxc9aVo7I,
       },
       revalidate: 1,
     }

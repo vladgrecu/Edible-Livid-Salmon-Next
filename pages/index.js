@@ -893,7 +893,7 @@ transform: scale(1);}}
         <Footer locale={props?.locale ?? ''}></Footer>
         <PricingPlans locale={props?.locale ?? ''}></PricingPlans>
         <video
-          src="/screen%20recording%202026-02-09%20at%2020.29.202.mov"
+          src="/screen%20recording%202026-02-09%20at%2020.29.204.mov"
           poster="https://play.teleporthq.io/static/svg/videoposter.svg"
           autoPlay="true"
           muted="true"
@@ -902,7 +902,7 @@ transform: scale(1);}}
           className="home-video1"
         ></video>
         <video
-          src="/screen%20recording%202026-02-09%20at%2020.29.201.mov"
+          src="/screen%20recording%202026-02-09%20at%2020.29.203.mov"
           poster="https://play.teleporthq.io/static/svg/videoposter.svg"
           autoPlay="true"
           muted="true"
@@ -911,13 +911,31 @@ transform: scale(1);}}
           className="home-video2"
         ></video>
         <video
-          src="/screen%20recording%202026-02-09%20at%2020.29.20.mov"
+          src="/screen%20recording%202026-02-09%20at%2020.29.202.mov"
           poster="https://play.teleporthq.io/static/svg/videoposter.svg"
           autoPlay="true"
           muted="true"
           loop="true"
           playsInline="true"
           className="home-video3"
+        ></video>
+        <video
+          src="/screen%20recording%202026-02-09%20at%2020.29.201.mov"
+          poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+          autoPlay="true"
+          muted="true"
+          loop="true"
+          playsInline="true"
+          className="home-video4"
+        ></video>
+        <video
+          src="/screen%20recording%202026-02-09%20at%2020.29.20.mov"
+          poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+          autoPlay="true"
+          muted="true"
+          loop="true"
+          playsInline="true"
+          className="home-video5"
         ></video>
       </div>
       <style jsx>
@@ -1146,6 +1164,14 @@ transform: scale(1);}}
             height: 180px;
           }
           .home-video3 {
+            width: 320px;
+            height: 180px;
+          }
+          .home-video4 {
+            width: 320px;
+            height: 180px;
+          }
+          .home-video5 {
             width: 320px;
             height: 180px;
           }
