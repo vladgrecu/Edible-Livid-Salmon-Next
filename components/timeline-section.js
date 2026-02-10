@@ -1,0 +1,304 @@
+import React, { Fragment } from 'react'
+
+import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
+
+const TimelineSection = (props) => {
+  const translate = useTranslations()
+  return (
+    <>
+      <section className="timeline-section-thq-timeline-section-elm timeline-section">
+        <div className="timeline-container">
+          <h2 className="section-title centered">
+            {props.sectionTitle ?? (
+              <Fragment>
+                <span className="timeline-section-text10">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('SectionTitle_4f6o9e'),
+                    }}
+                  ></span>
+                </span>
+              </Fragment>
+            )}
+          </h2>
+          <div className="timeline-wrapper">
+            <div className="timeline-rail">
+              <div className="rail-progress"></div>
+            </div>
+            <div className="milestone-grid">
+              <div className="milestone-item">
+                <div className="node-container">
+                  <div className="orbiting-dot"></div>
+                  <div className="node-center"></div>
+                </div>
+                <div className="milestone-content">
+                  <span className="date-stamp">
+                    {props.dateStamp ?? (
+                      <Fragment>
+                        <span className="timeline-section-text11">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('DateStamp_wAErEp'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <h3 className="section-subtitle">
+                    {props.sectionSubtitle ?? (
+                      <Fragment>
+                        <span className="timeline-section-text12">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionSubtitle_pb491C'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </h3>
+                  <p className="section-content">
+                    {props.sectionContent ?? (
+                      <Fragment>
+                        <span className="timeline-section-text13">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionContent_M3WZ4_'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </p>
+                </div>
+              </div>
+              <div className="milestone-item">
+                <div className="node-container">
+                  <div className="orbiting-dot"></div>
+                  <div className="node-center"></div>
+                </div>
+                <div className="milestone-content">
+                  <span className="date-stamp">
+                    {props.dateStamp1 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text14">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('DateStamp_y6TSXI'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <h3 className="section-subtitle">
+                    {props.sectionSubtitle1 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text15">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionSubtitle_puAY4u'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </h3>
+                  <p className="section-content">
+                    {props.sectionContent1 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text16">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionContent_gvzvOz'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </p>
+                </div>
+              </div>
+              <div className="milestone-item">
+                <div className="node-container">
+                  <div className="orbiting-dot"></div>
+                  <div className="node-center"></div>
+                </div>
+                <div className="milestone-content">
+                  <span className="date-stamp">
+                    {props.dateStamp2 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text17">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('DateStamp_Q_4wsb'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <h3 className="section-subtitle">
+                    {props.sectionSubtitle2 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text18">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionSubtitle_54NfnT'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </h3>
+                  <p className="section-content">
+                    {props.sectionContent2 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text19">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionContent_XDmj-8'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </p>
+                </div>
+              </div>
+              <div className="milestone-item">
+                <div className="node-container">
+                  <div className="orbiting-dot"></div>
+                  <div className="node-center"></div>
+                </div>
+                <div className="milestone-content">
+                  <span className="date-stamp">
+                    {props.dateStamp3 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text20">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('DateStamp_YuW0dZ'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <h3 className="section-subtitle">
+                    {props.sectionSubtitle3 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text21">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionSubtitle_Ao4_Wp'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </h3>
+                  <p className="section-content">
+                    {props.sectionContent3 ?? (
+                      <Fragment>
+                        <span className="timeline-section-text22">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('SectionContent_FHSnAj'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <style jsx>
+        {`
+          .timeline-section-thq-timeline-section-elm {
+            position: relative;
+          }
+          .timeline-section-text10 {
+            display: inline-block;
+          }
+          .timeline-section-text11 {
+            display: inline-block;
+          }
+          .timeline-section-text12 {
+            display: inline-block;
+          }
+          .timeline-section-text13 {
+            display: inline-block;
+          }
+          .timeline-section-text14 {
+            display: inline-block;
+          }
+          .timeline-section-text15 {
+            display: inline-block;
+          }
+          .timeline-section-text16 {
+            display: inline-block;
+          }
+          .timeline-section-text17 {
+            display: inline-block;
+          }
+          .timeline-section-text18 {
+            display: inline-block;
+          }
+          .timeline-section-text19 {
+            display: inline-block;
+          }
+          .timeline-section-text20 {
+            display: inline-block;
+          }
+          .timeline-section-text21 {
+            display: inline-block;
+          }
+          .timeline-section-text22 {
+            display: inline-block;
+          }
+        `}
+      </style>
+    </>
+  )
+}
+
+TimelineSection.defaultProps = {
+  sectionTitle: undefined,
+  dateStamp: undefined,
+  sectionSubtitle: undefined,
+  sectionContent: undefined,
+  dateStamp1: undefined,
+  sectionSubtitle1: undefined,
+  sectionContent1: undefined,
+  dateStamp2: undefined,
+  sectionSubtitle2: undefined,
+  sectionContent2: undefined,
+  dateStamp3: undefined,
+  sectionSubtitle3: undefined,
+  sectionContent3: undefined,
+}
+
+TimelineSection.propTypes = {
+  sectionTitle: PropTypes.element,
+  dateStamp: PropTypes.element,
+  sectionSubtitle: PropTypes.element,
+  sectionContent: PropTypes.element,
+  dateStamp1: PropTypes.element,
+  sectionSubtitle1: PropTypes.element,
+  sectionContent1: PropTypes.element,
+  dateStamp2: PropTypes.element,
+  sectionSubtitle2: PropTypes.element,
+  sectionContent2: PropTypes.element,
+  dateStamp3: PropTypes.element,
+  sectionSubtitle3: PropTypes.element,
+  sectionContent3: PropTypes.element,
+}
+
+export default TimelineSection

@@ -1,0 +1,23 @@
+# Edible Livid Salmon
+
+> Hello my little friend .... this is taken from the site general Meta description
+
+
+## Pages
+
+- [Home111](admin.teleporthq.ai/home111)
+- [Home11](admin.teleporthq.ai/home11)
+- [Page - My awesome website title (taken from my meta Title)](admin.teleporthq.ai/page): Hello my little friend .... this is taken from the site general Meta description
+
+- [Sign In11](admin.teleporthq.ai/sign-in11)
+- [Home1111](admin.teleporthq.ai/home1111)
+- [About NimbusCloud](admin.teleporthq.ai/about-nimbuscloud)
+- [Home1](admin.teleporthq.ai/home1)
+- [Home](admin.teleporthq.ai)
+- [Sign In1](admin.teleporthq.ai/sign-in1)
+- [Sign In](admin.teleporthq.ai/sign-in)
+
+## Languages
+
+- English (main)
+- Spanish
